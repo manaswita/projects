@@ -1,0 +1,42 @@
+package com.popularapps.saleskhoj;
+
+import java.io.IOException;
+import java.util.StringTokenizer;
+
+import javax.jdo.PersistenceManager;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@SuppressWarnings("serial")
+public class SalesKhojServlet extends HttpServlet {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws IOException {
+		/*try {
+			super.doPost(req, resp);
+
+			PersistenceManager pm = PMF.get().getPersistenceManager();
+			StringTokenizer contackTokenizer = new StringTokenizer(
+					req.getParameter("contactsdata"), "\n");
+			while (contackTokenizer.hasMoreTokens()) {
+				Contact contact = new Contact(contackTokenizer.nextToken());
+				pm.makePersistent(contact);
+			}
+			pm.close();*/
+			
+			String message = "NONE";
+			 
+	        resp.setContentType("text/plain");
+	 
+	        if (req.getParameterMap().containsKey("message"))
+	            message = req.getParameter("message");
+	 
+	        resp.getWriter().println("You said: " + message);
+		/*} catch (ServletException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}*/
+	}
+
+}

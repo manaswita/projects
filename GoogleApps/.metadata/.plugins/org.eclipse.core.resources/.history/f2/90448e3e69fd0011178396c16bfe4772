@@ -1,0 +1,112 @@
+package com.impetus.bigsale;
+
+import java.io.IOException;
+import java.util.ArrayList;
+
+import javax.jdo.PersistenceManager;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.api.datastore.FetchOptions;
+import com.google.appengine.api.datastore.Key;
+import com.google.appengine.api.datastore.Query;
+import com.impetus.bigsale.util.PMF;
+
+@SuppressWarnings("serial")
+public class BigSaleServlet extends HttpServlet {
+
+	// public static String url = "http://pages.stern.nyu.edu/~panos/test2.xml";
+	String postBody = "";
+
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws IOException {
+		
+		String url="http://splash-art.blogspot.in";
+		
+        System.out.println("Fetching %s..."+ url);
+
+        Document doc = Jsoup.connect(url).get();
+        Elements links = doc.select("a[href]");
+        Elements media = doc.select("[src]");
+        Elements imports = doc.select("link[href]");
+        
+        Entity offer = new Entity("Offers");
+        DatastoreService datastore = DatastoreServiceFactory.getDatastoreService();
+        
+        PersistenceManager pm = PMF.get().getPersistenceManager();
+        
+        Query query = new Query("Offers");
+
+        ArrayList<Key> keys = new ArrayList<Key>();
+
+        for ( Entity entity: datastore.prepare(query).asIterable(FetchOptions.Builder.withDefaults())) {
+         keys.add(entity.getKey());
+        }
+
+
+        keys.trimToSize();
+        datastore.delete(keys);
+
+        Entity offer2 = new Entity("Offers");
+        DatastoreService datastore2 = DatastoreServiceFactory.getDatastoreService();
+        
+        
+        for (Element src : media) {
+        	
+            if (src.tagName().equals("img")){
+	            	//System.out.println(src.tagName()+"-------"+src.attr("src"));
+	            /*else
+	            	System.out.println(src.tagName()+"*******"+ src.attr("abs:src"));*/
+            	offer2 = new Entity("Offers");
+	            
+	            offer2.setProperty("alt", src.attr("alt")+req.getParameter("value1"));
+	            offer2.setProperty("image", src.attr("src"));
+	    
+	
+	            datastore2.put(offer2);
+            }
+        }
+		
+		
+
+		/*URL url = new URL("http://splash-art.blogspot.in");
+		String all = "";
+        HTTPRequest request = null;
+    	List<HTTPHeader> headers = new ArrayList<HTTPHeader>();
+
+        request = (HTTPRequest) new HTTPRequest(url, HTTPMethod.GET);
+
+        for(HTTPHeader h:headers){
+        	request.addHeader(h);
+        }
+
+        
+		URLFetchService service = URLFetchServiceFactory.getURLFetchService();
+        HTTPResponse response = service.fetch(request);
+        //System.out.println(response);
+		if (200 == response.getResponseCode()) {
+			BufferedReader reader = new BufferedReader(new InputStreamReader(
+					new ByteArrayInputStream(response.getContent())));
+			String line;
+
+			while ((line = reader.readLine()) != null) {
+				all += line;
+				//System.out.println(line);
+			}
+			reader.close();
+		} 
+		
+		System.out.println("all :"+all);*/
+		
+	}
+
+}

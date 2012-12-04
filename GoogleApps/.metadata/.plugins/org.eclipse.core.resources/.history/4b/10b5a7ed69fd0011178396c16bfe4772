@@ -1,0 +1,14 @@
+
+public class JSONService {
+	
+	public Track getTrackInJSON() {
+		 
+		Track track = new Track();
+		track.setTitle("Enter Sandman");
+		track.setSinger("Metallica");
+ 
+		return track;
+ 
+	}
+
+}

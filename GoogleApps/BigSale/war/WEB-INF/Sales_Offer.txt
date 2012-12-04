@@ -1,0 +1,6 @@
+Lifestyle,bangalore,Upto 50% Off,1st July 2012,31st July 2012
+Central	bangalore,Upto 61% off,1st July 2012,31st,July 2012
+ShoppersStop,delhi,Upto 50% Off,1st July 2012,31st July 2012
+Westside,pune,Flat 20% off	1st,July 2012,Till Stock Lasts
+Pantaloons,bangalore,Flat 20% off,1st July,2012,Till Stock Lasts
+

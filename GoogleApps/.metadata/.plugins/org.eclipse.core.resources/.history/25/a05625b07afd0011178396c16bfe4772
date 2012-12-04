@@ -1,0 +1,68 @@
+package com.popularapps.saleskhoj;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.jdo.PersistenceManager;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.google.appengine.api.datastore.DatastoreService;
+import com.google.appengine.api.datastore.DatastoreServiceFactory;
+import com.google.appengine.api.datastore.Entity;
+import com.google.appengine.labs.repackaged.org.json.JSONArray;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
+
+@SuppressWarnings("serial")
+public class SalesKhojServlet extends HttpServlet {
+	public void process(HttpServletRequest req, HttpServletResponse resp)
+			   throws IOException, ServletException {
+			  resp.setContentType("text/plain");
+			  PersistenceManager persistenceManager = PMF.get().getPersistenceManager();
+			  
+			  
+			  Entity offer2 = new Entity(Beer.class.getName());
+		        DatastoreService datastore2 = DatastoreServiceFactory.getDatastoreService();
+		        
+		        
+		        	
+			            	//System.out.println(src.tagName()+"-------"+src.attr("src"));
+			            /*else
+			            	System.out.println(src.tagName()+"*******"+ src.attr("abs:src"));*/
+		            	offer2 = new Entity(Beer.class.getName());
+			            
+			            offer2.setProperty("name","name");
+			            offer2.setProperty("price", 200);
+			    
+			
+			            datastore2.put(offer2);
+			  
+			  
+			  String query = "select from " + Beer.class.getName() + " order by name asc";
+			  List<Beer> beerLocations = (List<Beer>)persistenceManager.newQuery(query).execute();
+			  List<JSONObject> list = new ArrayList<JSONObject>();
+			  for(Beer beer : beerLocations) {
+			   //Add the pojo as a JSONObject
+			   list.add(new JSONObject(beer));
+			  }
+			  //Create a JSONArray based from the list of JSONObejcts
+			  JSONArray jsonArray = new JSONArray(list);
+			  //Then output the JSON string to the servlet response
+			  System.out.println(jsonArray.toString());
+			  resp.getWriter().println(jsonArray.toString());
+			 }
+
+			 public void doPost(HttpServletRequest req, HttpServletResponse resp)
+			   throws IOException, ServletException {
+			  process(req, resp);
+			 }
+
+			 public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			   throws IOException, ServletException {
+			  process(req, resp);
+			 }
+
+}

@@ -1,0 +1,5 @@
+INDEX VERSION 1.122+D:\MyWorkspace\GoogleApps\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2805167903.index
+3189026312.index
+4191079078.index
+55355.index

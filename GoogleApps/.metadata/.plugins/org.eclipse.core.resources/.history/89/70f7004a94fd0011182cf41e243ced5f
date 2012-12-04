@@ -1,0 +1,118 @@
+package com.impetus.bigsale;
+
+import java.util.StringTokenizer;
+
+import javax.jdo.annotations.IdGeneratorStrategy;
+import javax.jdo.annotations.Persistent;
+import javax.jdo.annotations.PrimaryKey;
+
+import com.google.appengine.api.datastore.Key;
+
+public class Contact {
+	
+	@PrimaryKey
+	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
+	private Key key;
+
+	@Persistent
+	private String _id,number,primary_phone,last_time_contacted,primary_email,display_name,name,times_contacted;
+
+	public Contact(String contactInfo) {
+		StringTokenizer contactsTokenizer = new StringTokenizer(contactInfo,";");
+		if(contactsTokenizer.hasMoreTokens())
+			_id = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			number = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			primary_phone = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			last_time_contacted = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			primary_email = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			display_name = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			name = contactsTokenizer.nextToken();
+		if(contactsTokenizer.hasMoreTokens())
+			times_contacted = contactsTokenizer.nextToken();
+
+	}
+
+	public String getTimes_contacted() {
+		return times_contacted;
+	}
+
+	public void setTimes_contacted(String times_contacted) {
+		this.times_contacted = times_contacted;
+	}
+
+	public String getNumber() {
+		return number;
+	}
+
+	public void setNumber(String number) {
+		this.number = number;
+	}
+
+	public String getLast_time_contacted() {
+		return last_time_contacted;
+	}
+
+	public void setLast_time_contacted(String last_time_contacted) {
+		this.last_time_contacted = last_time_contacted;
+	}
+
+	public String getDisplay_name() {
+		return display_name;
+	}
+
+	public void setDisplay_name(String display_name) {
+		this.display_name = display_name;
+	}
+
+	public String get_id() {
+		return _id;
+	}
+
+	public void set_id(String _id) {
+		this._id = _id;
+	}
+
+	public String getPrimary_email() {
+		return primary_email;
+	}
+
+	public void setPrimary_email(String primary_email) {
+		this.primary_email = primary_email;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getPrimary_phone() {
+		return primary_phone;
+	}
+
+	public void setPrimary_phone(String primary_phone) {
+		this.primary_phone = primary_phone;
+	}
+
+	public void setKey(Key key) {
+		this.key = key;
+	}
+
+	public Key getKey() {
+		return key;
+	}
+
+	@Override
+	public String toString() {
+		return super.toString();
+	}
+
+}

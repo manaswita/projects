@@ -1,0 +1,112 @@
+package com.popularapps.saleskhoj;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import javax.jdo.annotations.IdentityType;
+import javax.jdo.annotations.PersistenceCapable;
+import javax.jdo.annotations.Persistent;
+
+@PersistenceCapable(identityType = IdentityType.APPLICATION)
+public class Beer {
+	
+	private Long id;
+    @Persistent
+ private String name;
+    @Persistent
+ private Double price;
+    @Persistent
+ private Date lastCallTime;
+    @Persistent
+ private String promotions;
+    @Persistent
+ private String address;
+    @Persistent
+ private Double longitude;
+    @Persistent
+ private Double latitude;
+
+    public Beer() {}
+    
+    public Beer(String name, Double price, 
+      Date lastCallTime, String promotions, 
+  String address, Double longitude, Double latitude) {
+     this.name = name;
+     this.price = price;
+     this.lastCallTime = lastCallTime;
+     this.promotions = promotions;
+     this.address = address;
+     this.longitude = longitude;
+     this.latitude = latitude;
+    }
+    
+    public Beer(Long id, String name, Double price, 
+      Date lastCallTime, String promotions, String address, 
+     Double longitude, Double latitude) {
+     this.id = id;
+     this.name = name;
+     this.price = price;
+     this.lastCallTime = lastCallTime;
+     this.promotions = promotions;
+     this.address = address;
+     this.longitude = longitude;
+     this.latitude = latitude;
+    }
+ public Long getId() {
+  return id;
+ }
+ public void setId(Long id) {
+  this.id = id;
+ }
+ public String getName() {
+  return name;
+ }
+ public void setName(String name) {
+  this.name = name;
+ }
+ public Double getPrice() {
+  return price;
+ }
+ public void setPrice(Double price) {
+  this.price = price;
+ }
+ public Date getLastCallTime() {
+  return lastCallTime;
+ }
+ public void setLastCallTime(Date lastCallTime) {
+  this.lastCallTime = lastCallTime;
+ }
+ private SimpleDateFormat sdf = new SimpleDateFormat("HH:mm");
+ public String getLastCallTimeString() {
+  if(lastCallTime != null) {
+   return sdf.format(lastCallTime);
+  } else {
+   return "-";
+  }
+ }
+ public String getPromotions() {
+  return promotions;
+ }
+ public void setPromotions(String promotions) {
+  this.promotions = promotions;
+ }
+ public String getAddress() {
+  return address;
+ }
+ public void setAddress(String address) {
+  this.address = address;
+ }
+ public Double getLongitude() {
+  return longitude;
+ }
+ public void setLongitude(Double longitude) {
+  this.longitude = longitude;
+ }
+ public Double getLatitude() {
+  return latitude;
+ }
+ public void setLatitude(Double latitude) {
+  this.latitude = latitude;
+ }
+
+}

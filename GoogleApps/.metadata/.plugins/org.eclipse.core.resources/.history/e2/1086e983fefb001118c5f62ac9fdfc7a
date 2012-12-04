@@ -1,0 +1,20 @@
+package com.popularapps.saleskhoj;
+
+import com.google.appengine.tools.admin.Application;
+import org.restlet.Application;
+import org.restlet.Restlet;
+import org.restlet.routing.Router;
+
+public class TestApplication extends Application{
+
+	@Override
+	public synchronized Restlet createRoot() {
+	    // Create a router Restlet that routes each call to a
+	    // new Resource
+	    Router router = new Router(getContext());
+
+	    router.attachDefault(TestResource.class);
+	    return router;
+	}
+
+}

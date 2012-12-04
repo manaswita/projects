@@ -1,0 +1,28 @@
+package com.popularapps.saleskhoj;
+
+import java.io.IOException;
+
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.restlet.Application;
+import org.restlet.Restlet;
+import org.restlet.routing.Router;
+
+@SuppressWarnings("serial")
+public class SalesKhojServlet extends Application {
+	public void doGet(HttpServletRequest req, HttpServletResponse resp)
+			throws IOException {
+		createRoot();
+	}
+	
+	public synchronized Restlet createRoot() {
+	    // Create a router Restlet that routes each call to a
+	    // new Resource
+	    Router router = new Router(getContext());
+
+	    router.attachDefault(TestResource.class);
+	    return router;
+	}
+}
