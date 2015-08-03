@@ -1,0 +1,45 @@
+.button-en_proceso {
+	width:170px;
+    padding: 10px 15px;
+    background: #e1e173;
+    color: black;
+	text-align:center;
+}
+.button-Listo {
+	width:170px;
+    padding: 10px 15px;
+    background: #9edd5e;
+    color: black;
+	text-align:center;
+}
+.white { 
+      background-color: white;
+      border:1px solid black
+    }
+    .lightgreen { 
+      background-color: lightgreen;
+      border:1px solid lightgreen
+    }
+    .grey { 
+      background-color: grey;
+      border:1px solid grey
+    }
+    .redBtn {
+      width:140px;
+      margin: 20px 15px;
+      background: red !important;
+      color: black;
+      text-align:center;
+    }
+
+.one  { 
+    background-color: #FFFFFF; 
+}
+
+.two {
+    background-color: #DFE8F6;
+}
+
+.x-list-body .x-list-selected {
+    background-color: #DFE8F6;
+}

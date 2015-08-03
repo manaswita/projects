@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+
+    <field name="userName">
+        <field-validator type="requiredstring">
+            <message>please enter your username</message>
+        </field-validator>
+    </field>
+    
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message>please enter your passsword</message>
+        </field-validator>
+	</field>
+	 
+	<field name="area">
+        <field-validator type="requiredstring">
+            <message>please enter the name of the area you stay</message>
+        </field-validator>
+    </field>
+   
+   <field name="mobile">
+        <field-validator type="regex">
+             <param name="expression">^[0-9]{10}$</param>
+             <message>Mobile number must be of 10 digits</message>
+        </field-validator>
+  </field>
+    
+  	  <field name="email">
+        <field-validator type="email">
+             <message>Email address is not valid</message>
+        </field-validator>
+       </field>
+    <field name="pin">
+         <field-validator type="regex">
+             <param name="expression">^[0-9]{6}$</param>
+             <message>Pin code must be of 6 digits</message>
+        </field-validator>
+	</field>
+	<field name="name">
+        <field-validator type="requiredstring">
+            <message>please enter your name</message>
+        </field-validator>
+    </field>
+   <field name="city">
+        <field-validator type="requiredstring">
+            <message>please select your city</message>
+        </field-validator>
+    </field>
+    <validator type="expression">
+       <param name="expression">password == confirmPassword</param>
+       <message>Password and confirm password do not match!</message>
+  </validator>
+</validators>

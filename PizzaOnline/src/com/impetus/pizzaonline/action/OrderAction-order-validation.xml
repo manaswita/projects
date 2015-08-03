@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+    <field name="name">
+        <field-validator type="requiredstring">
+            <message>please enter your name</message>
+        </field-validator>
+    </field>
+    <field name="cardNumber">
+        <field-validator type="requiredstring">
+        <param name="expression">^[0-9]{16}$</param>
+        <message>Invalid Card Number!!please enter your 16 digit car number </message>
+        </field-validator>
+	</field>
+	<field name="cvv">
+        <field-validator type="requiredstring">
+        <param name="expression">^[0-9]{3}$</param>
+        <message>Invalid Card Number!!please enter your 3 digit cvv number </message>
+        </field-validator>
+	</field>
+	
+    <field name="offer">
+        <field-validator type="requiredstring">
+            <message>please select offer</message>
+        </field-validator>
+    </field>
+    <field name="mode">
+        <field-validator type="requiredstring">
+            <message>please select mode of payment</message>
+        </field-validator>
+    </field>
+</validators>

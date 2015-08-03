@@ -1,0 +1,1173 @@
+
+Test/com/impetus/pizzaonline/BaseTestCase.java:8	Avoid unused imports such as 'org.apache.struts2.views.JspSupportServlet'
+Test/com/impetus/pizzaonline/BaseTestCase.java:8	Avoid unused imports such as 'org.apache.struts2.views.JspSupportServlet'
+Test/com/impetus/pizzaonline/BaseTestCase.java:9	Avoid unused imports such as 'org.springframework.context.ApplicationContext'
+Test/com/impetus/pizzaonline/BaseTestCase.java:9	Avoid unused imports such as 'org.springframework.context.ApplicationContext'
+Test/com/impetus/pizzaonline/BaseTestCase.java:10	Avoid unused imports such as 'org.springframework.mock.web.MockServletConfig'
+Test/com/impetus/pizzaonline/BaseTestCase.java:10	Avoid unused imports such as 'org.springframework.mock.web.MockServletConfig'
+Test/com/impetus/pizzaonline/BaseTestCase.java:12	Avoid unused imports such as 'org.springframework.web.context.ContextLoader'
+Test/com/impetus/pizzaonline/BaseTestCase.java:12	Avoid unused imports such as 'org.springframework.web.context.ContextLoader'
+Test/com/impetus/pizzaonline/BaseTestCase.java:15	Avoid unused imports such as 'java.util.Map'
+Test/com/impetus/pizzaonline/BaseTestCase.java:15	Avoid unused imports such as 'java.util.Map'
+Test/com/impetus/pizzaonline/BaseTestCase.java:24	Abstract classes should be named AbstractXXX
+Test/com/impetus/pizzaonline/BaseTestCase.java:28	Found non-transient, non-static member. Please mark as transient or provide accessors.
+Test/com/impetus/pizzaonline/BaseTestCase.java:29	Found non-transient, non-static member. Please mark as transient or provide accessors.
+Test/com/impetus/pizzaonline/BaseTestCase.java:32	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/BaseTestCase.java:47	Parameter 'actionName' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/BaseTestCase.java:47	Parameter 'clazz' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/BaseTestCase.java:47	Parameter 'methodName' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/BaseTestCase.java:47	Parameter 'namespace' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/BaseTestCase.java:48	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/BaseTestCase.java:48	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/BaseTestCase.java:72	JUnit 4 tests that set up tests should use the @Before annotation
+Test/com/impetus/pizzaonline/BaseTestCase.java:75	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:5	Avoid unused imports such as 'java.util.Enumeration'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:5	Avoid unused imports such as 'java.util.Enumeration'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:9	Avoid unused imports such as 'javax.servlet.ServletContext'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:9	Avoid unused imports such as 'javax.servlet.ServletContext'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:10	Avoid unused imports such as 'javax.servlet.http.HttpSessionContext'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:10	Avoid unused imports such as 'javax.servlet.http.HttpSessionContext'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:12	Avoid unused imports such as 'org.apache.struts2.StrutsTestCase'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:12	Avoid unused imports such as 'org.apache.struts2.StrutsTestCase'
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:19	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:25	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:27	Local variable 'result' could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:55	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:56	Local variable 'admin' could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:58	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:62	Avoid unused local variables such as 'result'.
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:62	Found 'DU'-anomaly for variable 'result' (lines '62'-'64').
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:62	Local variable 'result' could be declared final
+Test/com/impetus/pizzaonline/action/AdminActionTest.java:63	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:5	Avoid unused imports such as 'java.util.Enumeration'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:5	Avoid unused imports such as 'java.util.Enumeration'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:9	Avoid unused imports such as 'javax.servlet.ServletContext'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:9	Avoid unused imports such as 'javax.servlet.ServletContext'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:10	Avoid unused imports such as 'javax.servlet.http.HttpSessionContext'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:10	Avoid unused imports such as 'javax.servlet.http.HttpSessionContext'
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:19	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:40	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:42	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:54	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:58	Local variable 'result' could be declared final
+Test/com/impetus/pizzaonline/action/BPOActionTest.java:59	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.model.User'
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.model.User'
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:18	This class has too many methods, consider refactoring it.
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:20	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:26	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:27	The String literal "/pages" appears 12 times in this file; the first occurrence is on line 27
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:28	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:29	Local variable 'cartList' could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:30	Local variable 'toppingList' could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:31	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:32	Local variable 'topping' could be declared final
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:34	The String literal "PIZZA" appears 4 times in this file; the first occurrence is on line 34
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:36	The String literal "BLACK OLIVES" appears 5 times in this file; the first occurrence is on line 36
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:38	The String literal "VEGETARIAN" appears 8 times in this file; the first occurrence is on line 38
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:42	The String literal "PIZZA SPICY CHICKEN" appears 5 times in this file; the first occurrence is on line 42
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:58	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:62	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:94	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:98	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:130	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:134	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:166	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:170	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:176	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:214	Avoid unused local variables such as 'toppingList'.
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:214	Found 'DU'-anomaly for variable 'toppingList' (lines '214'-'228').
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:235	Avoid unused local variables such as 'toppingList'.
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:235	Found 'DU'-anomaly for variable 'toppingList' (lines '235'-'249').
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:256	Avoid unused local variables such as 'toppingList'.
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:256	Found 'DU'-anomaly for variable 'toppingList' (lines '256'-'268').
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:275	Avoid unused local variables such as 'toppingList'.
+Test/com/impetus/pizzaonline/action/GetItemActionTest.java:275	Found 'DU'-anomaly for variable 'toppingList' (lines '275'-'287').
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:22	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:27	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:29	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:30	Local variable 'cartList' could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:31	Local variable 'toppingList' could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:32	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:33	Local variable 'user' could be declared final
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:83	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:86	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/OrderActionTest.java:101	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:21	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:27	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:28	The String literal "/pages" appears 4 times in this file; the first occurrence is on line 28
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:29	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:30	Local variable 'cartList' could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:31	Local variable 'toppingList' could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:32	Local variable 'offerList' could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:33	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:41	The String literal "VEGETARIAN" appears 4 times in this file; the first occurrence is on line 41
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:67	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:72	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:87	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:91	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:125	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:129	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/PaymentActionTest.java:134	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/UserActionTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/action/UserActionTest.java:15	Parameter 'name' is not assigned and could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:21	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/UserActionTest.java:22	The String literal "/pages" appears 5 times in this file; the first occurrence is on line 22
+Test/com/impetus/pizzaonline/action/UserActionTest.java:23	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:24	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:33	The String literal "sree" appears 6 times in this file; the first occurrence is on line 33
+Test/com/impetus/pizzaonline/action/UserActionTest.java:40	Local variable 'result' could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:41	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/UserActionTest.java:41	The String literal "success" appears 5 times in this file; the first occurrence is on line 41
+Test/com/impetus/pizzaonline/action/UserActionTest.java:45	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/UserActionTest.java:47	Local variable 'params' could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:48	Local variable 'param' could be declared final
+Test/com/impetus/pizzaonline/action/UserActionTest.java:55	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/UserActionTest.java:59	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/UserActionTest.java:72	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/UserActionTest.java:76	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/UserActionTest.java:81	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/action/UserActionTest.java:87	A method/constructor shouldn't explicitly throw java.lang.Exception
+Test/com/impetus/pizzaonline/action/UserActionTest.java:90	Avoid unused local variables such as 'param'.
+Test/com/impetus/pizzaonline/action/UserActionTest.java:90	Found 'DU'-anomaly for variable 'param' (lines '90'-'96').
+Test/com/impetus/pizzaonline/action/UserActionTest.java:95	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/constants/ApplConstantsTest.java:5	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:14	This class has too many methods, consider refactoring it.
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:18	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:21	The String literal "Result1" appears 12 times in this file; the first occurrence is on line 21
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:26	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:32	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:38	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:44	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:96	Found 'DD'-anomaly for variable 'itm' (lines '96'-'102').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:96	Found 'DU'-anomaly for variable 'itm' (lines '96'-'106').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:99	Found 'DD'-anomaly for variable 'itemList' (lines '99'-'101').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:99	Found 'DU'-anomaly for variable 'itemList' (lines '99'-'106').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:123	Found 'DD'-anomaly for variable 'tpgList' (lines '123'-'131').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:123	Found 'DU'-anomaly for variable 'tpgList' (lines '123'-'144').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:125	Found 'DD'-anomaly for variable 'topping' (lines '125'-'137').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:126	Found 'DU'-anomaly for variable 'tpgName' (lines '126'-'144').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:127	Found 'DU'-anomaly for variable 'tpgType' (lines '127'-'144').
+Test/com/impetus/pizzaonline/dao/ItemDAOTest.java:137	Found 'DD'-anomaly for variable 'topping' (lines '137'-'137').
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:17	Local variable 'offerDao' could be declared final
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:18	The String literal "Result1" appears 5 times in this file; the first occurrence is on line 18
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:26	Local variable 'offer' could be declared final
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:27	Local variable 'offerDao' could be declared final
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:41	Found 'DD'-anomaly for variable 'offer' (lines '41'-'46').
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:42	Found 'DD'-anomaly for variable 'offerList' (lines '42'-'45').
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:43	Local variable 'offerDao' could be declared final
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:44	Local variable 'selectOffer' could be declared final
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:57	Avoid unused local variables such as 'offer'.
+Test/com/impetus/pizzaonline/dao/OfferDAOTest.java:57	Found 'DU'-anomaly for variable 'offer' (lines '57'-'65').
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:13	Local variable 'order' could be declared final
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:14	Local variable 'orderdao' could be declared final
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:35	Avoid unused local variables such as 'order'.
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:35	Found 'DU'-anomaly for variable 'order' (lines '35'-'42').
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:35	Local variable 'order' could be declared final
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:36	Local variable 'orderdao' could be declared final
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:38	Local variable 'custId1' could be declared final
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:46	Avoid unused local variables such as 'order'.
+Test/com/impetus/pizzaonline/dao/OrderDAOTest.java:46	Found 'DU'-anomaly for variable 'order' (lines '46'-'50').
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:21	Local variable 'userDAO' could be declared final
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:22	The String literal "Result " appears 10 times in this file; the first occurrence is on line 22
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:22	The String literal "impetus" appears 4 times in this file; the first occurrence is on line 22
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:28	Local variable 'userDAO' could be declared final
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:29	Local variable 'cust' could be declared final
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:39	Local variable 'userDAO' could be declared final
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:40	Local variable 'staff' could be declared final
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:61	Found 'DD'-anomaly for variable 'staff' (lines '61'-'66').
+Test/com/impetus/pizzaonline/dao/UserDAOTest.java:63	Found 'DD'-anomaly for variable 'staffList' (lines '63'-'65').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:12	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:12	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:16	This class has too many methods, consider refactoring it.
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:21	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:27	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:33	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:39	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:45	Local variable 'item' could be declared final
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:98	Found 'DD'-anomaly for variable 'itm' (lines '98'-'104').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:101	Found 'DD'-anomaly for variable 'itemList' (lines '101'-'103').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:101	Found 'DU'-anomaly for variable 'itemList' (lines '101'-'108').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:131	Found 'DD'-anomaly for variable 'tpgList' (lines '131'-'139').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:131	Found 'DU'-anomaly for variable 'tpgList' (lines '131'-'152').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:133	Found 'DD'-anomaly for variable 'topping' (lines '133'-'145').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:134	Found 'DU'-anomaly for variable 'tpgName' (lines '134'-'152').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:135	Found 'DU'-anomaly for variable 'tpgType' (lines '135'-'152').
+Test/com/impetus/pizzaonline/service/ItemServiceTest.java:145	Found 'DD'-anomaly for variable 'topping' (lines '145'-'145').
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:19	Local variable 'user' could be declared final
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:21	Local variable 'role' could be declared final
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:22	Local variable 'userName' could be declared final
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:23	Local variable 'password' could be declared final
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:29	Local variable 'user' could be declared final
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:42	The String literal "Result " appears 8 times in this file; the first occurrence is on line 42
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:67	Found 'DD'-anomaly for variable 'staff' (lines '67'-'72').
+Test/com/impetus/pizzaonline/service/LoginServiceTest.java:69	Found 'DD'-anomaly for variable 'staffList' (lines '69'-'71').
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:10	Avoid unused imports such as 'com.impetus.pizzaonline.dao.OfferDAO'
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:10	Avoid unused imports such as 'com.impetus.pizzaonline.dao.OfferDAO'
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:17	Local variable 'offerSrv' could be declared final
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:18	Local variable 'offer' could be declared final
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:29	The String literal "Result1" appears 5 times in this file; the first occurrence is on line 29
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:34	Found 'DD'-anomaly for variable 'offer' (lines '34'-'39').
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:35	Found 'DD'-anomaly for variable 'offerList' (lines '35'-'38').
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:36	Local variable 'offerSrv' could be declared final
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:37	Local variable 'selectOffer' could be declared final
+Test/com/impetus/pizzaonline/service/OfferServiceTest.java:47	Local variable 'offerSrv' could be declared final
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.dao.OrderDAO'
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.dao.OrderDAO'
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:14	Local variable 'order' could be declared final
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:15	Local variable 'orderSrv' could be declared final
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:34	Local variable 'orderSrv' could be declared final
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:36	Local variable 'custId1' could be declared final
+Test/com/impetus/pizzaonline/service/OrderServiceTest.java:37	Local variable 'custId2' could be declared final
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:12	Local variable 'pizzaProps' could be declared final
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:14	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:15	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:16	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:17	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/util/PizzaOnlinePropertiesTest.java:18	JUnit assertions should include a message
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:3	Avoid unused imports such as 'org.junit.Assert'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:5	Avoid unused imports such as 'java.util.ArrayList'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:5	Avoid unused imports such as 'java.util.ArrayList'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:6	Avoid unused imports such as 'java.util.HashMap'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:6	Avoid unused imports such as 'java.util.HashMap'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:7	Avoid unused imports such as 'java.util.List'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:7	Avoid unused imports such as 'java.util.List'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:8	Avoid unused imports such as 'java.util.Map'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:8	Avoid unused imports such as 'java.util.Map'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:10	Avoid unused imports such as 'org.junit.After'
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:28	The String literal "1100000" appears 6 times in this file; the first occurrence is on line 28
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:28	The String literal "Result" appears 10 times in this file; the first occurrence is on line 28
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:39	Local variable 'pizzaProps' could be declared final
+Test/com/impetus/pizzaonline/util/PizzaUtilTest.java:41	The String literal "Your Order Items:PIZZA CAPPRIOSSA,PEPSI" appears 4 times in this file; the first occurrence is on line 41
+src/com/impetus/pizzaonline/action/AdminAction.java:1	A high number of imports can indicate a high degree of coupling within an object.
+src/com/impetus/pizzaonline/action/AdminAction.java:1	This class has a bunch of public methods and attributes
+src/com/impetus/pizzaonline/action/AdminAction.java:3	Avoid unused imports such as 'java.awt.Image'
+src/com/impetus/pizzaonline/action/AdminAction.java:3	Avoid unused imports such as 'java.awt.Image'
+src/com/impetus/pizzaonline/action/AdminAction.java:4	Avoid unused imports such as 'java.awt.image.RenderedImage'
+src/com/impetus/pizzaonline/action/AdminAction.java:4	Avoid unused imports such as 'java.awt.image.RenderedImage'
+src/com/impetus/pizzaonline/action/AdminAction.java:6	Avoid unused imports such as 'java.io.IOException'
+src/com/impetus/pizzaonline/action/AdminAction.java:6	Avoid unused imports such as 'java.io.IOException'
+src/com/impetus/pizzaonline/action/AdminAction.java:8	Avoid unused imports such as 'java.util.HashMap'
+src/com/impetus/pizzaonline/action/AdminAction.java:8	Avoid unused imports such as 'java.util.HashMap'
+src/com/impetus/pizzaonline/action/AdminAction.java:14	Avoid unused imports such as 'javax.imageio.ImageIO'
+src/com/impetus/pizzaonline/action/AdminAction.java:14	Avoid unused imports such as 'javax.imageio.ImageIO'
+src/com/impetus/pizzaonline/action/AdminAction.java:51	This class has too many methods, consider refactoring it.
+src/com/impetus/pizzaonline/action/AdminAction.java:51	Too many fields
+src/com/impetus/pizzaonline/action/AdminAction.java:81	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/AdminAction.java:81	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/AdminAction.java:85	Avoid excessively long variable names like userImageContentType
+src/com/impetus/pizzaonline/action/AdminAction.java:87	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/AdminAction.java:98	Parameter 'popTpgList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:104	Parameter 'tpgList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:110	Parameter 'tpgName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:116	Parameter 'tpgType' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:122	Parameter 'tpgPrice' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:143	Avoid excessively long variable names like userImageContentType
+src/com/impetus/pizzaonline/action/AdminAction.java:346	Local variable 'newItem' could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:367	Local variable 'newStaff' could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:384	Local variable 'item' could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:385	Found 'DD'-anomaly for variable 'insert' (lines '385'-'395').
+src/com/impetus/pizzaonline/action/AdminAction.java:386	Local variable 'newItem' could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:398	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/AdminAction.java:400	Avoid unused local variables such as 'filePath'.
+src/com/impetus/pizzaonline/action/AdminAction.java:400	Found 'DU'-anomaly for variable 'filePath' (lines '400'-'422').
+src/com/impetus/pizzaonline/action/AdminAction.java:400	Local variable 'filePath' could be declared final
+src/com/impetus/pizzaonline/action/AdminAction.java:407	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/AdminAction.java:410	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/AdminAction.java:413	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/AdminAction.java:413	The String literal "success" appears 9 times in this file; the first occurrence is on line 413
+src/com/impetus/pizzaonline/action/AdminAction.java:429	Found 'DD'-anomaly for variable 'item' (lines '429'-'434').
+src/com/impetus/pizzaonline/action/AdminAction.java:430	Found 'DD'-anomaly for variable 'remove' (lines '430'-'437').
+src/com/impetus/pizzaonline/action/AdminAction.java:438	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/AdminAction.java:440	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/AdminAction.java:445	The String literal "errorMsg" appears 7 times in this file; the first occurrence is on line 445
+src/com/impetus/pizzaonline/action/AdminAction.java:452	Found 'DD'-anomaly for variable 'insert' (lines '452'-'460').
+src/com/impetus/pizzaonline/action/AdminAction.java:461	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/AdminAction.java:463	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/AdminAction.java:474	Found 'DD'-anomaly for variable 'topping' (lines '474'-'485').
+src/com/impetus/pizzaonline/action/AdminAction.java:476	Found 'DD'-anomaly for variable 'remove' (lines '476'-'491').
+src/com/impetus/pizzaonline/action/AdminAction.java:485	Found 'DD'-anomaly for variable 'topping' (lines '485'-'485').
+src/com/impetus/pizzaonline/action/AdminAction.java:492	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/AdminAction.java:494	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/AdminAction.java:509	Found 'DD'-anomaly for variable 'register' (lines '509'-'521').
+src/com/impetus/pizzaonline/action/AdminAction.java:522	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/AdminAction.java:541	Found 'DD'-anomaly for variable 'staff' (lines '541'-'546').
+src/com/impetus/pizzaonline/action/AdminAction.java:542	Found 'DD'-anomaly for variable 'remove' (lines '542'-'549').
+src/com/impetus/pizzaonline/action/AdminAction.java:574	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/AdminAction.java:589	Found 'DU'-anomaly for variable 'tempMinBill' (lines '589'-'652').
+src/com/impetus/pizzaonline/action/AdminAction.java:590	Found 'DU'-anomaly for variable 'tempDiscount' (lines '590'-'652').
+src/com/impetus/pizzaonline/action/AdminAction.java:593	Found 'DU'-anomaly for variable 'str' (lines '593'-'652').
+src/com/impetus/pizzaonline/action/AdminAction.java:597	Avoid variables with short names like it
+src/com/impetus/pizzaonline/action/AdminAction.java:597	Found 'DU'-anomaly for variable 'it' (lines '597'-'652').
+src/com/impetus/pizzaonline/action/AdminAction.java:599	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/AdminAction.java:599	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/AdminAction.java:603	Found 'DD'-anomaly for variable 'key' (lines '603'-'603').
+src/com/impetus/pizzaonline/action/AdminAction.java:603	Found 'DU'-anomaly for variable 'key' (lines '603'-'652').
+src/com/impetus/pizzaonline/action/AdminAction.java:623	Found 'DD'-anomaly for variable 'insert' (lines '623'-'634').
+src/com/impetus/pizzaonline/action/AdminAction.java:686	Found 'DD'-anomaly for variable 'offer' (lines '686'-'690').
+src/com/impetus/pizzaonline/action/AdminAction.java:687	Found 'DD'-anomaly for variable 'remove' (lines '687'-'692').
+src/com/impetus/pizzaonline/action/BPOAction.java:40	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/BPOAction.java:40	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/BPOAction.java:41	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/BPOAction.java:41	Private field 'userName' could be made final; it is only initialized in the declaration or constructor.
+src/com/impetus/pizzaonline/action/BPOAction.java:42	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/BPOAction.java:42	Private field 'password' could be made final; it is only initialized in the declaration or constructor.
+src/com/impetus/pizzaonline/action/BPOAction.java:49	Parameter 'lane' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:55	Parameter 'flatNo' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:61	Parameter 'bldgName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:67	Parameter 'area' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:73	Parameter 'city' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:117	Local variable 'getCust' could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:121	Local variable 'custList' could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:122	Found 'DU'-anomaly for variable 'user' (lines '122'-'143').
+src/com/impetus/pizzaonline/action/BPOAction.java:122	Local variable 'user' could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:123	Found 'DD'-anomaly for variable 'customer' (lines '123'-'128').
+src/com/impetus/pizzaonline/action/BPOAction.java:123	Found 'DU'-anomaly for variable 'customer' (lines '123'-'143').
+src/com/impetus/pizzaonline/action/BPOAction.java:126	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/BPOAction.java:126	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/BPOAction.java:133	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/BPOAction.java:153	Found 'DU'-anomaly for variable 'user' (lines '153'-'190').
+src/com/impetus/pizzaonline/action/BPOAction.java:153	Local variable 'user' could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:154	Local variable 'customer' could be declared final
+src/com/impetus/pizzaonline/action/BPOAction.java:155	Found 'DD'-anomaly for variable 'register' (lines '155'-'174').
+src/com/impetus/pizzaonline/action/BPOAction.java:163	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/BPOAction.java:176	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/BPOAction.java:184	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/GetItemAction.java:1	This class has a bunch of public methods and attributes
+src/com/impetus/pizzaonline/action/GetItemAction.java:9	Avoid unused imports such as 'java.util.Set'
+src/com/impetus/pizzaonline/action/GetItemAction.java:9	Avoid unused imports such as 'java.util.Set'
+src/com/impetus/pizzaonline/action/GetItemAction.java:11	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/action/GetItemAction.java:11	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/action/GetItemAction.java:29	The class 'GetItemAction' has a Cyclomatic Complexity of 3 (Highest = 19).
+src/com/impetus/pizzaonline/action/GetItemAction.java:29	This class has too many methods, consider refactoring it.
+src/com/impetus/pizzaonline/action/GetItemAction.java:29	Too many fields
+src/com/impetus/pizzaonline/action/GetItemAction.java:33	It is somewhat confusing to have a field name with the same name as a method
+src/com/impetus/pizzaonline/action/GetItemAction.java:36	It is somewhat confusing to have a field name with the same name as a method
+src/com/impetus/pizzaonline/action/GetItemAction.java:37	It is somewhat confusing to have a field name with the same name as a method
+src/com/impetus/pizzaonline/action/GetItemAction.java:38	It is somewhat confusing to have a field name with the same name as a method
+src/com/impetus/pizzaonline/action/GetItemAction.java:39	It is somewhat confusing to have a field name with the same name as a method
+src/com/impetus/pizzaonline/action/GetItemAction.java:47	Avoid excessively long variable names like selectSidesTopping
+src/com/impetus/pizzaonline/action/GetItemAction.java:48	Avoid unused private fields such as 'defaultTopping'.
+src/com/impetus/pizzaonline/action/GetItemAction.java:48	Perhaps 'defaultTopping' could be replaced by a local variable.
+src/com/impetus/pizzaonline/action/GetItemAction.java:49	Avoid unused private fields such as 'defaultSize'.
+src/com/impetus/pizzaonline/action/GetItemAction.java:49	Perhaps 'defaultSize' could be replaced by a local variable.
+src/com/impetus/pizzaonline/action/GetItemAction.java:54	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/GetItemAction.java:54	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/GetItemAction.java:55	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/GetItemAction.java:64	Parameter 'beverageName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:72	Parameter 'dessertName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:80	Parameter 'itemCartList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:88	Avoid excessively long variable names like selectSidesTopping
+src/com/impetus/pizzaonline/action/GetItemAction.java:88	Parameter 'selectSidesTopping' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:96	Parameter 'sideName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:255	Found 'DD'-anomaly for variable 'count' (lines '255'-'270').
+src/com/impetus/pizzaonline/action/GetItemAction.java:259	Local variable 'itemService' could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:262	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/GetItemAction.java:264	The String literal "cartList" appears 12 times in this file; the first occurrence is on line 264
+src/com/impetus/pizzaonline/action/GetItemAction.java:269	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/GetItemAction.java:273	Local variable 'iterator' could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:289	The String literal "populate" appears 12 times in this file; the first occurrence is on line 289
+src/com/impetus/pizzaonline/action/GetItemAction.java:303	Found 'DD'-anomaly for variable 'count' (lines '303'-'318').
+src/com/impetus/pizzaonline/action/GetItemAction.java:305	Local variable 'itemService' could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:310	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/GetItemAction.java:317	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/GetItemAction.java:321	Local variable 'iterator' could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:352	Found 'DD'-anomaly for variable 'count' (lines '352'-'365').
+src/com/impetus/pizzaonline/action/GetItemAction.java:353	Local variable 'itemService' could be declared final
+src/com/impetus/pizzaonline/action/GetItemAction.java:357	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/GetItemAction.java:395	Found 'DD'-anomaly for variable 'count' (lines '395'-'413').
+src/com/impetus/pizzaonline/action/GetItemAction.java:500	Found 'DD'-anomaly for variable 'tempTpg' (lines '500'-'513').
+src/com/impetus/pizzaonline/action/GetItemAction.java:500	Found 'DU'-anomaly for variable 'tempTpg' (lines '500'-'526').
+src/com/impetus/pizzaonline/action/GetItemAction.java:503	Avoid unused local variables such as 'count'.
+src/com/impetus/pizzaonline/action/GetItemAction.java:503	Found 'DU'-anomaly for variable 'count' (lines '503'-'526').
+src/com/impetus/pizzaonline/action/GetItemAction.java:533	Avoid really long methods.
+src/com/impetus/pizzaonline/action/GetItemAction.java:533	The method 'addToCartPizza' has a Cyclomatic Complexity of 17.
+src/com/impetus/pizzaonline/action/GetItemAction.java:533	The method addToCartPizza() has an NPath complexity of 245
+src/com/impetus/pizzaonline/action/GetItemAction.java:535	Found 'DD'-anomaly for variable 'tempString' (lines '535'-'592').
+src/com/impetus/pizzaonline/action/GetItemAction.java:535	Found 'DU'-anomaly for variable 'tempString' (lines '535'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:537	Found 'DD'-anomaly for variable 'tempPrice' (lines '537'-'593').
+src/com/impetus/pizzaonline/action/GetItemAction.java:537	Found 'DU'-anomaly for variable 'tempPrice' (lines '537'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:538	Found 'DU'-anomaly for variable 'itemService' (lines '538'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:539	Found 'DU'-anomaly for variable 'tpgList' (lines '539'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:542	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/GetItemAction.java:545	Found 'DU'-anomaly for variable 'getQuant' (lines '545'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:572	Found 'DD'-anomaly for variable 'tempName' (lines '572'-'572').
+src/com/impetus/pizzaonline/action/GetItemAction.java:572	Found 'DU'-anomaly for variable 'tempName' (lines '572'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:586	Found 'DU'-anomaly for variable 'itr' (lines '586'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:593	Found 'DD'-anomaly for variable 'tempPrice' (lines '593'-'593').
+src/com/impetus/pizzaonline/action/GetItemAction.java:593	Found 'DU'-anomaly for variable 'tempPrice' (lines '593'-'651').
+src/com/impetus/pizzaonline/action/GetItemAction.java:629	Avoid empty catch blocks
+src/com/impetus/pizzaonline/action/GetItemAction.java:634	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/GetItemAction.java:637	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/GetItemAction.java:640	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/GetItemAction.java:648	The String literal "error" appears 4 times in this file; the first occurrence is on line 648
+src/com/impetus/pizzaonline/action/GetItemAction.java:659	Avoid really long methods.
+src/com/impetus/pizzaonline/action/GetItemAction.java:659	The method 'addToCartSides' has a Cyclomatic Complexity of 19.
+src/com/impetus/pizzaonline/action/GetItemAction.java:659	The method addToCartSides() has an NPath complexity of 868
+src/com/impetus/pizzaonline/action/GetItemAction.java:660	Found 'DD'-anomaly for variable 'tempTpg' (lines '660'-'692').
+src/com/impetus/pizzaonline/action/GetItemAction.java:660	Found 'DU'-anomaly for variable 'tempTpg' (lines '660'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:661	Found 'DD'-anomaly for variable 'tempString' (lines '661'-'724').
+src/com/impetus/pizzaonline/action/GetItemAction.java:661	Found 'DU'-anomaly for variable 'tempString' (lines '661'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:663	Found 'DD'-anomaly for variable 'tempPrice' (lines '663'-'725').
+src/com/impetus/pizzaonline/action/GetItemAction.java:663	Found 'DU'-anomaly for variable 'tempPrice' (lines '663'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:665	Found 'DU'-anomaly for variable 'tpgList' (lines '665'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:666	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/GetItemAction.java:666	Position literals first in String comparisons
+src/com/impetus/pizzaonline/action/GetItemAction.java:669	Found 'DU'-anomaly for variable 'getQuant' (lines '669'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:707	Found 'DD'-anomaly for variable 'tempName' (lines '707'-'707').
+src/com/impetus/pizzaonline/action/GetItemAction.java:707	Found 'DU'-anomaly for variable 'tempName' (lines '707'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:725	Found 'DD'-anomaly for variable 'tempPrice' (lines '725'-'725').
+src/com/impetus/pizzaonline/action/GetItemAction.java:725	Found 'DU'-anomaly for variable 'tempPrice' (lines '725'-'779').
+src/com/impetus/pizzaonline/action/GetItemAction.java:757	The String literal "error at addToCartSides() " appears 4 times in this file; the first occurrence is on line 757
+src/com/impetus/pizzaonline/action/GetItemAction.java:759	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/GetItemAction.java:763	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/GetItemAction.java:766	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/action/GetItemAction.java:769	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/GetItemAction.java:785	The method 'addToCartDessert' has a Cyclomatic Complexity of 11.
+src/com/impetus/pizzaonline/action/GetItemAction.java:787	Found 'DU'-anomaly for variable 'tpgList' (lines '787'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:788	Found 'DD'-anomaly for variable 'tempString' (lines '788'-'821').
+src/com/impetus/pizzaonline/action/GetItemAction.java:788	Found 'DU'-anomaly for variable 'tempString' (lines '788'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:790	Found 'DD'-anomaly for variable 'tempPrice' (lines '790'-'822').
+src/com/impetus/pizzaonline/action/GetItemAction.java:790	Found 'DU'-anomaly for variable 'tempPrice' (lines '790'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:791	Found 'DU'-anomaly for variable 'itemService' (lines '791'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:793	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/GetItemAction.java:793	Position literals first in String comparisons
+src/com/impetus/pizzaonline/action/GetItemAction.java:797	Found 'DU'-anomaly for variable 'getQuant' (lines '797'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:822	Found 'DD'-anomaly for variable 'tempPrice' (lines '822'-'822').
+src/com/impetus/pizzaonline/action/GetItemAction.java:822	Found 'DU'-anomaly for variable 'tempPrice' (lines '822'-'872').
+src/com/impetus/pizzaonline/action/GetItemAction.java:850	The String literal "error at addToCartDessert() " appears 4 times in this file; the first occurrence is on line 850
+src/com/impetus/pizzaonline/action/GetItemAction.java:862	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/GetItemAction.java:879	The method 'addToCartBeverage' has a Cyclomatic Complexity of 12.
+src/com/impetus/pizzaonline/action/GetItemAction.java:880	Found 'DU'-anomaly for variable 'tpgList' (lines '880'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:881	Found 'DD'-anomaly for variable 'tempString' (lines '881'-'910').
+src/com/impetus/pizzaonline/action/GetItemAction.java:881	Found 'DU'-anomaly for variable 'tempString' (lines '881'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:883	Found 'DD'-anomaly for variable 'tempPrice' (lines '883'-'911').
+src/com/impetus/pizzaonline/action/GetItemAction.java:883	Found 'DU'-anomaly for variable 'tempPrice' (lines '883'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:884	Found 'DU'-anomaly for variable 'itemService' (lines '884'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:885	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/GetItemAction.java:885	Position literals first in String comparisons
+src/com/impetus/pizzaonline/action/GetItemAction.java:888	Found 'DU'-anomaly for variable 'getQuant' (lines '888'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:911	Found 'DD'-anomaly for variable 'tempPrice' (lines '911'-'911').
+src/com/impetus/pizzaonline/action/GetItemAction.java:911	Found 'DU'-anomaly for variable 'tempPrice' (lines '911'-'968').
+src/com/impetus/pizzaonline/action/GetItemAction.java:955	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/OrderAction.java:1	This class has a bunch of public methods and attributes
+src/com/impetus/pizzaonline/action/OrderAction.java:35	The class 'OrderAction' has a Cyclomatic Complexity of 2 (Highest = 44).
+src/com/impetus/pizzaonline/action/OrderAction.java:35	Too many fields
+src/com/impetus/pizzaonline/action/OrderAction.java:37	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/OrderAction.java:37	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/OrderAction.java:40	Avoid unused private fields such as 'userName'.
+src/com/impetus/pizzaonline/action/OrderAction.java:42	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/OrderAction.java:42	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/OrderAction.java:42	When instantiating a SimpleDateFormat object, specify a Locale
+src/com/impetus/pizzaonline/action/OrderAction.java:76	Parameter 'mode' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:80	Parameter 'historyList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:88	Parameter 'cartList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:96	Parameter 'errorMsg' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:103	Parameter 'cardNumber' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:259	Avoid really long methods.
+src/com/impetus/pizzaonline/action/OrderAction.java:259	The method 'insertOrder' has a Cyclomatic Complexity of 44.
+src/com/impetus/pizzaonline/action/OrderAction.java:259	The method insertOrder() has an NCSS line count of 161
+src/com/impetus/pizzaonline/action/OrderAction.java:259	The method insertOrder() has an NPath complexity of 28325376
+src/com/impetus/pizzaonline/action/OrderAction.java:262	Found 'DD'-anomaly for variable 'user' (lines '262'-'265').
+src/com/impetus/pizzaonline/action/OrderAction.java:263	Found 'DD'-anomaly for variable 'cust' (lines '263'-'264').
+src/com/impetus/pizzaonline/action/OrderAction.java:264	Found 'DU'-anomaly for variable 'cust' (lines '264'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:267	Found 'DD'-anomaly for variable 'email' (lines '267'-'383').
+src/com/impetus/pizzaonline/action/OrderAction.java:268	Assigning an Object to null is a code smell.  Consider refactoring.
+src/com/impetus/pizzaonline/action/OrderAction.java:269	Found 'DD'-anomaly for variable 'insert' (lines '269'-'481').
+src/com/impetus/pizzaonline/action/OrderAction.java:270	Avoid unused local variables such as 'sendMail'.
+src/com/impetus/pizzaonline/action/OrderAction.java:270	Found 'DD'-anomaly for variable 'sendMail' (lines '270'-'498').
+src/com/impetus/pizzaonline/action/OrderAction.java:270	Found 'DU'-anomaly for variable 'sendMail' (lines '270'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:271	Found 'DD'-anomaly for variable 'day' (lines '271'-'309').
+src/com/impetus/pizzaonline/action/OrderAction.java:272	Found 'DU'-anomaly for variable 'newOrder' (lines '272'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:272	Local variable 'newOrder' could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:273	Found 'DU'-anomaly for variable 'order' (lines '273'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:273	Local variable 'order' could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:274	Found 'DD'-anomaly for variable 'tax' (lines '274'-'463').
+src/com/impetus/pizzaonline/action/OrderAction.java:274	Found 'DU'-anomaly for variable 'tax' (lines '274'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:277	Avoid unused local variables such as 'userName'.
+src/com/impetus/pizzaonline/action/OrderAction.java:278	Found 'DD'-anomaly for variable 'Cust_id' (lines '278'-'381').
+src/com/impetus/pizzaonline/action/OrderAction.java:279	Found 'DD'-anomaly for variable 'Stf_id' (lines '279'-'382').
+src/com/impetus/pizzaonline/action/OrderAction.java:280	Found 'DU'-anomaly for variable 'tempQuantity' (lines '280'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:281	Found 'DD'-anomaly for variable 'finalTotal' (lines '281'-'466').
+src/com/impetus/pizzaonline/action/OrderAction.java:281	Found 'DU'-anomaly for variable 'finalTotal' (lines '281'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:282	Found 'DD'-anomaly for variable 'tempDiscount' (lines '282'-'465').
+src/com/impetus/pizzaonline/action/OrderAction.java:282	Found 'DU'-anomaly for variable 'tempDiscount' (lines '282'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:284	Found 'DD'-anomaly for variable 'ofrId' (lines '284'-'447').
+src/com/impetus/pizzaonline/action/OrderAction.java:284	Found 'DU'-anomaly for variable 'ofrId' (lines '284'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:285	Found 'DU'-anomaly for variable 'string' (lines '285'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:285	Local variable 'string' could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:287	Local variable 'cal' could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:288	Found 'DD'-anomaly for variable 'ofr' (lines '288'-'295').
+src/com/impetus/pizzaonline/action/OrderAction.java:290	Local variable 'newOffer' could be declared final
+src/com/impetus/pizzaonline/action/OrderAction.java:294	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/OrderAction.java:298	Found 'DU'-anomaly for variable 'str' (lines '298'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:300	Found 'DD'-anomaly for variable 'tempItr' (lines '300'-'350').
+src/com/impetus/pizzaonline/action/OrderAction.java:307	Switch statements should have a default label
+src/com/impetus/pizzaonline/action/OrderAction.java:337	Found 'DD'-anomaly for variable 'validBill' (lines '337'-'359').
+src/com/impetus/pizzaonline/action/OrderAction.java:339	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/OrderAction.java:346	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/OrderAction.java:356	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/OrderAction.java:356	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/OrderAction.java:374	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/OrderAction.java:374	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/OrderAction.java:374	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/OrderAction.java:376	Found 'DU'-anomaly for variable 'userName' (lines '376'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:381	Found 'DU'-anomaly for variable 'Cust_id' (lines '381'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:382	Found 'DU'-anomaly for variable 'Stf_id' (lines '382'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:383	Found 'DU'-anomaly for variable 'email' (lines '383'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:393	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/OrderAction.java:397	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/OrderAction.java:401	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/OrderAction.java:405	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/OrderAction.java:409	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/OrderAction.java:445	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/OrderAction.java:447	Found 'DU'-anomaly for variable 'ofrId' (lines '447'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:493	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/OrderAction.java:498	Found 'DU'-anomaly for variable 'sendMail' (lines '498'-'516').
+src/com/impetus/pizzaonline/action/OrderAction.java:502	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/OrderAction.java:506	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/OrderAction.java:525	Found 'DD'-anomaly for variable 'user' (lines '525'-'529').
+src/com/impetus/pizzaonline/action/OrderAction.java:526	Found 'DD'-anomaly for variable 'cust' (lines '526'-'537').
+src/com/impetus/pizzaonline/action/OrderAction.java:526	Found 'DU'-anomaly for variable 'cust' (lines '526'-'548').
+src/com/impetus/pizzaonline/action/OrderAction.java:527	Found 'DD'-anomaly for variable 'userId' (lines '527'-'531').
+src/com/impetus/pizzaonline/action/OrderAction.java:527	Found 'DD'-anomaly for variable 'userId' (lines '527'-'538').
+src/com/impetus/pizzaonline/action/OrderAction.java:541	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/OrderAction.java:543	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/PaymentAction.java:1	This class has a bunch of public methods and attributes
+src/com/impetus/pizzaonline/action/PaymentAction.java:3	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/action/PaymentAction.java:3	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/action/PaymentAction.java:5	Avoid unused imports such as 'java.util.Calendar'
+src/com/impetus/pizzaonline/action/PaymentAction.java:5	Avoid unused imports such as 'java.util.Calendar'
+src/com/impetus/pizzaonline/action/PaymentAction.java:6	Avoid unused imports such as 'java.util.GregorianCalendar'
+src/com/impetus/pizzaonline/action/PaymentAction.java:6	Avoid unused imports such as 'java.util.GregorianCalendar'
+src/com/impetus/pizzaonline/action/PaymentAction.java:11	Avoid unused imports such as 'javax.servlet.http.HttpServletRequest'
+src/com/impetus/pizzaonline/action/PaymentAction.java:11	Avoid unused imports such as 'javax.servlet.http.HttpServletRequest'
+src/com/impetus/pizzaonline/action/PaymentAction.java:13	Avoid unused imports such as 'com.impetus.pizzaonline.constants.ApplConstants'
+src/com/impetus/pizzaonline/action/PaymentAction.java:13	Avoid unused imports such as 'com.impetus.pizzaonline.constants.ApplConstants'
+src/com/impetus/pizzaonline/action/PaymentAction.java:35	The class 'PaymentAction' has a Cyclomatic Complexity of 2 (Highest = 17).
+src/com/impetus/pizzaonline/action/PaymentAction.java:35	Too many fields
+src/com/impetus/pizzaonline/action/PaymentAction.java:40	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/PaymentAction.java:40	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/PaymentAction.java:43	Avoid unused private fields such as 'defaultCart'.
+src/com/impetus/pizzaonline/action/PaymentAction.java:70	Parameter 'mobile' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:78	Parameter 'discount' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:86	Parameter 'deliveryCharges' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:94	Parameter 'tax' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:102	Parameter 'totalPrice' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:251	The method 'showCart' has a Cyclomatic Complexity of 17.
+src/com/impetus/pizzaonline/action/PaymentAction.java:251	The method showCart() has an NPath complexity of 1215
+src/com/impetus/pizzaonline/action/PaymentAction.java:255	Avoid unused local variables such as 'cartSize'.
+src/com/impetus/pizzaonline/action/PaymentAction.java:255	Found 'DD'-anomaly for variable 'cartSize' (lines '255'-'317').
+src/com/impetus/pizzaonline/action/PaymentAction.java:256	Avoid unused local variables such as 'tempList'.
+src/com/impetus/pizzaonline/action/PaymentAction.java:256	Local variable 'tempList' could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:257	Avoid unused local variables such as 'tempItem'.
+src/com/impetus/pizzaonline/action/PaymentAction.java:258	Found 'DD'-anomaly for variable 'tempTopping' (lines '258'-'284').
+src/com/impetus/pizzaonline/action/PaymentAction.java:258	Found 'DU'-anomaly for variable 'tempTopping' (lines '258'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:260	Found 'DD'-anomaly for variable 'tempItr' (lines '260'-'282').
+src/com/impetus/pizzaonline/action/PaymentAction.java:260	Found 'DU'-anomaly for variable 'tempItr' (lines '260'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:261	Found 'DD'-anomaly for variable 'tempPrice' (lines '261'-'290').
+src/com/impetus/pizzaonline/action/PaymentAction.java:261	Found 'DU'-anomaly for variable 'tempPrice' (lines '261'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:263	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/PaymentAction.java:265	The String literal "cartList" appears 4 times in this file; the first occurrence is on line 265
+src/com/impetus/pizzaonline/action/PaymentAction.java:269	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/PaymentAction.java:274	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/PaymentAction.java:276	Local variable 'iterator' could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:279	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/action/PaymentAction.java:279	Found 'DD'-anomaly for variable 'str' (lines '279'-'279').
+src/com/impetus/pizzaonline/action/PaymentAction.java:279	Found 'DU'-anomaly for variable 'str' (lines '279'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:279	Local variable 'str' could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:283	Found 'DD'-anomaly for variable 'tempItem' (lines '283'-'283').
+src/com/impetus/pizzaonline/action/PaymentAction.java:283	Found 'DU'-anomaly for variable 'tempItem' (lines '283'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:284	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/action/PaymentAction.java:284	Found 'DD'-anomaly for variable 'tempTopping' (lines '284'-'285').
+src/com/impetus/pizzaonline/action/PaymentAction.java:289	Avoid concatenating nonliterals in a StringBuffer constructor or append().
+src/com/impetus/pizzaonline/action/PaymentAction.java:299	The null check here is misplaced; if the variable is null therell be a NullPointerException
+src/com/impetus/pizzaonline/action/PaymentAction.java:310	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/PaymentAction.java:317	Found 'DU'-anomaly for variable 'cartSize' (lines '317'-'324').
+src/com/impetus/pizzaonline/action/PaymentAction.java:319	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/PaymentAction.java:331	The method 'payment' has a Cyclomatic Complexity of 11.
+src/com/impetus/pizzaonline/action/PaymentAction.java:331	The method payment() has an NPath complexity of 768
+src/com/impetus/pizzaonline/action/PaymentAction.java:335	Local variable 'user' could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:337	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/PaymentAction.java:344	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/PaymentAction.java:351	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/PaymentAction.java:358	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/PaymentAction.java:365	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/PaymentAction.java:404	Local variable 'offer' could be declared final
+src/com/impetus/pizzaonline/action/PaymentAction.java:422	The method 'removeCart' has a Cyclomatic Complexity of 10.
+src/com/impetus/pizzaonline/action/PaymentAction.java:423	Found 'DD'-anomaly for variable 'item' (lines '423'-'436').
+src/com/impetus/pizzaonline/action/PaymentAction.java:423	Found 'DU'-anomaly for variable 'item' (lines '423'-'454').
+src/com/impetus/pizzaonline/action/PaymentAction.java:426	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/PaymentAction.java:432	Found 'DU'-anomaly for variable 'iterator' (lines '432'-'454').
+src/com/impetus/pizzaonline/action/UserAction.java:4	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/action/UserAction.java:4	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/action/UserAction.java:29	Too many fields
+src/com/impetus/pizzaonline/action/UserAction.java:48	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/UserAction.java:50	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/UserAction.java:50	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/action/UserAction.java:52	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:52	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:57	Avoid unused private fields such as 'errorMsg'.
+src/com/impetus/pizzaonline/action/UserAction.java:57	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/impetus/pizzaonline/action/UserAction.java:67	Parameter 'city' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:71	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:71	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:75	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:75	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/action/UserAction.java:75	Parameter 'cityList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:83	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:91	Parameter 'flatNo' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:99	Parameter 'bldgName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:222	Found 'DU'-anomaly for variable 'user' (lines '222'-'258').
+src/com/impetus/pizzaonline/action/UserAction.java:222	Local variable 'user' could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:223	Local variable 'customer' could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:224	Found 'DD'-anomaly for variable 'register' (lines '224'-'243').
+src/com/impetus/pizzaonline/action/UserAction.java:225	Local variable 'newLogin' could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:245	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/action/UserAction.java:249	The String literal "getUser" appears 4 times in this file; the first occurrence is on line 249
+src/com/impetus/pizzaonline/action/UserAction.java:251	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/UserAction.java:251	The String literal "success" appears 5 times in this file; the first occurrence is on line 251
+src/com/impetus/pizzaonline/action/UserAction.java:270	Found 'DD'-anomaly for variable 'getUser' (lines '270'-'285').
+src/com/impetus/pizzaonline/action/UserAction.java:271	Local variable 'loginService' could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:289	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/UserAction.java:293	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/action/UserAction.java:349	Found 'DD'-anomaly for variable 'user' (lines '349'-'350').
+src/com/impetus/pizzaonline/action/UserAction.java:373	Found 'DD'-anomaly for variable 'getUser' (lines '373'-'375').
+src/com/impetus/pizzaonline/action/UserAction.java:374	Local variable 'loginService' could be declared final
+src/com/impetus/pizzaonline/action/UserAction.java:376	Avoid unused local variables such as 'sendMail'.
+src/com/impetus/pizzaonline/action/UserAction.java:376	Found 'DD'-anomaly for variable 'sendMail' (lines '376'-'382').
+src/com/impetus/pizzaonline/action/UserAction.java:376	Found 'DU'-anomaly for variable 'sendMail' (lines '376'-'394').
+src/com/impetus/pizzaonline/action/UserAction.java:378	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/action/UserAction.java:378	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/action/UserAction.java:382	Found 'DU'-anomaly for variable 'sendMail' (lines '382'-'394').
+src/com/impetus/pizzaonline/action/UserAction.java:386	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/constants/ApplConstants.java:3	Avoid unused imports such as 'java.util.Properties'
+src/com/impetus/pizzaonline/constants/ApplConstants.java:3	Avoid unused imports such as 'java.util.Properties'
+src/com/impetus/pizzaonline/constants/ApplConstants.java:9	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/impetus/pizzaonline/constants/ApplConstants.java:38	Avoid excessively long variable names like HOMEDELIVERY_CHARGES
+src/com/impetus/pizzaonline/constants/ApplConstants.java:42	Found 'DD'-anomaly for variable 'charges' (lines '42'-'51').
+src/com/impetus/pizzaonline/constants/ApplConstants.java:44	Local variable 'pizzaProps' could be declared final
+src/com/impetus/pizzaonline/constants/ApplConstants.java:57	Found 'DD'-anomaly for variable 'taxRate' (lines '57'-'66').
+src/com/impetus/pizzaonline/constants/ApplConstants.java:59	Local variable 'pizzaProps' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Staff'
+src/com/impetus/pizzaonline/dao/ItemDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Staff'
+src/com/impetus/pizzaonline/dao/ItemDAO.java:33	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:34	Found 'DD'-anomaly for variable 'item' (lines '34'-'40').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:37	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:38	The String literal "itemCategory" appears 4 times in this file; the first occurrence is on line 38
+src/com/impetus/pizzaonline/dao/ItemDAO.java:39	The String literal "actInd" appears 7 times in this file; the first occurrence is on line 39
+src/com/impetus/pizzaonline/dao/ItemDAO.java:41	The String literal "Successful database connection,itemList populated" appears 8 times in this file; the first occurrence is on line 41
+src/com/impetus/pizzaonline/dao/ItemDAO.java:43	The String literal "error" appears 14 times in this file; the first occurrence is on line 43
+src/com/impetus/pizzaonline/dao/ItemDAO.java:44	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/ItemDAO.java:61	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:62	Found 'DD'-anomaly for variable 'item' (lines '62'-'68').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:65	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:72	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/ItemDAO.java:84	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:85	Found 'DD'-anomaly for variable 'item' (lines '85'-'91').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:95	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/ItemDAO.java:110	Found 'DD'-anomaly for variable 'item' (lines '110'-'116').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:120	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/ItemDAO.java:136	Found 'DD'-anomaly for variable 'item' (lines '136'-'142').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:146	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/ItemDAO.java:158	Found 'DD'-anomaly for variable 'item' (lines '158'-'163').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:182	Parameter 'item' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:186	Found 'DD'-anomaly for variable 'isValidate' (lines '186'-'204').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:186	Found 'DD'-anomaly for variable 'isValidate' (lines '186'-'207').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:187	Found 'DD'-anomaly for variable 'itemList' (lines '187'-'198').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:190	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/ItemDAO.java:191	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/ItemDAO.java:193	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/ItemDAO.java:194	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/ItemDAO.java:210	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/ItemDAO.java:213	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/ItemDAO.java:218	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/ItemDAO.java:224	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/ItemDAO.java:245	Parameter 'itemName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:245	Parameter 'itemSize' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:247	Found 'DD'-anomaly for variable 'item' (lines '247'-'255').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:273	Found 'DD'-anomaly for variable 'item' (lines '273'-'280').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:299	Parameter 'item' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:305	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/ItemDAO.java:310	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/ItemDAO.java:322	Parameter 'topping' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/ItemDAO.java:326	Found 'DD'-anomaly for variable 'isValidate' (lines '326'-'344').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:326	Found 'DD'-anomaly for variable 'isValidate' (lines '326'-'347').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:327	Found 'DD'-anomaly for variable 'tpgList' (lines '327'-'338').
+src/com/impetus/pizzaonline/dao/ItemDAO.java:330	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/ItemDAO.java:331	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/ItemDAO.java:333	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/ItemDAO.java:334	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/ItemDAO.java:350	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/ItemDAO.java:353	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/ItemDAO.java:358	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/ItemDAO.java:364	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/ItemDAO.java:383	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/OfferDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Customer'
+src/com/impetus/pizzaonline/dao/OfferDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Customer'
+src/com/impetus/pizzaonline/dao/OfferDAO.java:17	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/OfferDAO.java:17	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/OfferDAO.java:35	Parameter 'offer' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:36	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:37	Local variable 'coupon' could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:39	Found 'DD'-anomaly for variable 'isValidate' (lines '39'-'56').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:39	Found 'DD'-anomaly for variable 'isValidate' (lines '39'-'59').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:40	Found 'DD'-anomaly for variable 'offerList' (lines '40'-'49').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:42	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:43	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/OfferDAO.java:44	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/OfferDAO.java:47	The String literal "actInd" appears 4 times in this file; the first occurrence is on line 47
+src/com/impetus/pizzaonline/dao/OfferDAO.java:52	The String literal "error" appears 6 times in this file; the first occurrence is on line 52
+src/com/impetus/pizzaonline/dao/OfferDAO.java:53	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:62	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/OfferDAO.java:65	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/OfferDAO.java:65	Local variable 'tx' could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:70	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OfferDAO.java:75	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:76	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OfferDAO.java:95	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:96	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:97	Found 'DD'-anomaly for variable 'offer' (lines '97'-'103').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:107	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:123	Found 'DD'-anomaly for variable 'offer' (lines '123'-'128').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:132	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:146	Parameter 'offer' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:152	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/OfferDAO.java:157	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OfferDAO.java:162	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:181	Parameter 'coupon' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:181	Parameter 'validDays' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OfferDAO.java:183	Avoid unused local variables such as 'validate'.
+src/com/impetus/pizzaonline/dao/OfferDAO.java:183	Found 'DU'-anomaly for variable 'validate' (lines '183'-'200').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:184	Found 'DD'-anomaly for variable 'offerList' (lines '184'-'186').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:187	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/OfferDAO.java:187	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/dao/OfferDAO.java:189	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OfferDAO.java:208	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/OfferDAO.java:208	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/OfferDAO.java:211	Found 'DD'-anomaly for variable 'offerList' (lines '211'-'223').
+src/com/impetus/pizzaonline/dao/OfferDAO.java:215	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/OfferDAO.java:216	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/OfferDAO.java:218	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/OrderDAO.java:11	Avoid unused imports such as 'org.hibernate.criterion.MatchMode'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:11	Avoid unused imports such as 'org.hibernate.criterion.MatchMode'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.constants.ApplConstants'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.constants.ApplConstants'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:16	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:18	Avoid unused imports such as 'com.impetus.pizzaonline.model.User'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:18	Avoid unused imports such as 'com.impetus.pizzaonline.model.User'
+src/com/impetus/pizzaonline/dao/OrderDAO.java:28	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/dao/OrderDAO.java:37	Parameter 'order' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:38	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:41	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/OrderDAO.java:41	Local variable 'tx' could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:45	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OrderDAO.java:49	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OrderDAO.java:61	Parameter 'userId' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:63	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:65	Found 'DD'-anomaly for variable 'item' (lines '65'-'71').
+src/com/impetus/pizzaonline/dao/OrderDAO.java:68	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:75	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OrderDAO.java:79	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/OrderDAO.java:80	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OrderDAO.java:83	Found 'DU'-anomaly for variable 'item' (lines '83'-'85').
+src/com/impetus/pizzaonline/dao/OrderDAO.java:95	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/OrderDAO.java:97	Found 'DD'-anomaly for variable 'item' (lines '97'-'102').
+src/com/impetus/pizzaonline/dao/OrderDAO.java:106	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/OrderDAO.java:110	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/OrderDAO.java:112	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/OrderDAO.java:115	Found 'DU'-anomaly for variable 'item' (lines '115'-'117').
+src/com/impetus/pizzaonline/dao/UserDAO.java:14	Avoid unused imports such as 'com.impetus.pizzaonline.action.UserAction'
+src/com/impetus/pizzaonline/dao/UserDAO.java:14	Avoid unused imports such as 'com.impetus.pizzaonline.action.UserAction'
+src/com/impetus/pizzaonline/dao/UserDAO.java:17	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/UserDAO.java:17	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/dao/UserDAO.java:43	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:43	Parameter 'role' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:43	Parameter 'userName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:45	Found 'DU'-anomaly for variable 'ses' (lines '45'-'77').
+src/com/impetus/pizzaonline/dao/UserDAO.java:45	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:46	Found 'DD'-anomaly for variable 'userList' (lines '46'-'54').
+src/com/impetus/pizzaonline/dao/UserDAO.java:46	Found 'DD'-anomaly for variable 'userList' (lines '46'-'63').
+src/com/impetus/pizzaonline/dao/UserDAO.java:46	Found 'DU'-anomaly for variable 'userList' (lines '46'-'77').
+src/com/impetus/pizzaonline/dao/UserDAO.java:47	Avoid variables with short names like c
+src/com/impetus/pizzaonline/dao/UserDAO.java:47	Found 'DD'-anomaly for variable 'c' (lines '47'-'56').
+src/com/impetus/pizzaonline/dao/UserDAO.java:47	Found 'DU'-anomaly for variable 'c' (lines '47'-'77').
+src/com/impetus/pizzaonline/dao/UserDAO.java:48	Avoid variables with short names like u
+src/com/impetus/pizzaonline/dao/UserDAO.java:48	Local variable 'u' could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:49	Avoid variables with short names like s
+src/com/impetus/pizzaonline/dao/UserDAO.java:49	Found 'DD'-anomaly for variable 's' (lines '49'-'65').
+src/com/impetus/pizzaonline/dao/UserDAO.java:49	Found 'DU'-anomaly for variable 's' (lines '49'-'77').
+src/com/impetus/pizzaonline/dao/UserDAO.java:53	Position literals first in String comparisons
+src/com/impetus/pizzaonline/dao/UserDAO.java:55	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/dao/UserDAO.java:62	Position literals first in String comparisons
+src/com/impetus/pizzaonline/dao/UserDAO.java:64	Deeply nested if..then statements are hard to read
+src/com/impetus/pizzaonline/dao/UserDAO.java:64	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/dao/UserDAO.java:74	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/UserDAO.java:89	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/UserDAO.java:89	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/UserDAO.java:89	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:89	Parameter 'ses' is not assigned and could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:92	Found 'DD'-anomaly for variable 'userList' (lines '92'-'103').
+src/com/impetus/pizzaonline/dao/UserDAO.java:94	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:96	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/UserDAO.java:97	The String literal "userName" appears 5 times in this file; the first occurrence is on line 97
+src/com/impetus/pizzaonline/dao/UserDAO.java:97	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/UserDAO.java:99	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/UserDAO.java:106	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/UserDAO.java:119	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/UserDAO.java:119	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/dao/UserDAO.java:122	Found 'DD'-anomaly for variable 'staffList' (lines '122'-'134').
+src/com/impetus/pizzaonline/dao/UserDAO.java:124	Local variable 'criteria' could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:126	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/UserDAO.java:127	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/UserDAO.java:129	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/UserDAO.java:137	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/UserDAO.java:152	Local variable 'ses' could be declared final
+src/com/impetus/pizzaonline/dao/UserDAO.java:155	Avoid unused local variables such as 'act_ind'.
+src/com/impetus/pizzaonline/dao/UserDAO.java:155	Found 'DU'-anomaly for variable 'act_ind' (lines '155'-'207').
+src/com/impetus/pizzaonline/dao/UserDAO.java:156	Found 'DD'-anomaly for variable 'isValidate' (lines '156'-'176').
+src/com/impetus/pizzaonline/dao/UserDAO.java:156	Found 'DD'-anomaly for variable 'isValidate' (lines '156'-'179').
+src/com/impetus/pizzaonline/dao/UserDAO.java:157	Found 'DD'-anomaly for variable 'userList' (lines '157'-'170').
+src/com/impetus/pizzaonline/dao/UserDAO.java:160	Use equals() to compare strings instead of '==' or '!='
+src/com/impetus/pizzaonline/dao/UserDAO.java:161	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/UserDAO.java:173	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/UserDAO.java:182	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/UserDAO.java:185	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/UserDAO.java:190	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/UserDAO.java:195	Avoid printStackTrace(); use a logger call instead.
+src/com/impetus/pizzaonline/dao/UserDAO.java:196	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/UserDAO.java:222	Found 'DD'-anomaly for variable 'isValidate' (lines '222'-'237').
+src/com/impetus/pizzaonline/dao/UserDAO.java:222	Found 'DD'-anomaly for variable 'isValidate' (lines '222'-'240').
+src/com/impetus/pizzaonline/dao/UserDAO.java:223	Found 'DD'-anomaly for variable 'userList' (lines '223'-'231').
+src/com/impetus/pizzaonline/dao/UserDAO.java:228	When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+src/com/impetus/pizzaonline/dao/UserDAO.java:243	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/dao/UserDAO.java:246	Avoid variables with short names like tx
+src/com/impetus/pizzaonline/dao/UserDAO.java:251	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/UserDAO.java:257	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/UserDAO.java:279	Found 'DD'-anomaly for variable 'staff' (lines '279'-'286').
+src/com/impetus/pizzaonline/dao/UserDAO.java:307	Found 'DD'-anomaly for variable 'staff' (lines '307'-'313').
+src/com/impetus/pizzaonline/dao/UserDAO.java:341	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/dao/UserDAO.java:362	Found 'DD'-anomaly for variable 'customer' (lines '362'-'369').
+src/com/impetus/pizzaonline/dao/UserDAO.java:412	Found 'DD'-anomaly for variable 'customer' (lines '412'-'418').
+src/com/impetus/pizzaonline/model/Customer.java:17	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Customer.java:45	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Customer.java:45	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Customer.java:51	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Customer.java:57	Parameter 'userName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Customer.java:63	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Customer.java:69	Parameter 'flatNo' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Item.java:41	Parameter 'toppingList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Item.java:47	Parameter 'itemId' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Item.java:53	Parameter 'itemName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Item.java:59	Parameter 'itemCategory' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Item.java:65	Parameter 'itemSize' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/ItemModel.java:5	Avoid unused imports such as 'org.apache.commons.beanutils.BeanUtils'
+src/com/impetus/pizzaonline/model/ItemModel.java:5	Avoid unused imports such as 'org.apache.commons.beanutils.BeanUtils'
+src/com/impetus/pizzaonline/model/ItemModel.java:34	Parameter 'toppingName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/ItemModel.java:40	Parameter 'totalPrice' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/ItemModel.java:46	Parameter 'quantity' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/ItemModel.java:54	Parameter 'toppingList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/ItemModel.java:60	Parameter 'itemId' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Offer.java:16	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Offer.java:38	Parameter 'discount' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Offer.java:44	Parameter 'minBill' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Offer.java:50	Parameter 'validDays' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Offer.java:56	Parameter 'actInd' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Offer.java:62	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Offer.java:62	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/impetus/pizzaonline/model/Order.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/impetus/pizzaonline/model/Order.java:18	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Order.java:20	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/impetus/pizzaonline/model/Order.java:22	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/impetus/pizzaonline/model/Order.java:24	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/impetus/pizzaonline/model/Order.java:46	Parameter 'delivery' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:52	Parameter 'orderAddress' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:58	Parameter 'orderDate' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:64	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Order.java:64	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:67	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Order.java:70	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Order.java:70	Parameter 'cust_id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Order.java:73	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Order.java:76	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Order.java:79	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Staff.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/impetus/pizzaonline/model/Staff.java:3	Avoid unused imports such as 'java.util.Date'
+src/com/impetus/pizzaonline/model/Staff.java:17	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Staff.java:35	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/impetus/pizzaonline/model/Staff.java:43	Parameter 'city' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Staff.java:53	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Staff.java:53	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Staff.java:59	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Staff.java:65	Parameter 'role' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Staff.java:71	Parameter 'userName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Staff.java:104	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Staff.java:107	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Topping.java:16	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Topping.java:24	Variables that are not final should not contain underscores (except for underscores in standard prefix/suffix).
+src/com/impetus/pizzaonline/model/Topping.java:31	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/Topping.java:31	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Topping.java:37	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Topping.java:43	Parameter 'category' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Topping.java:49	Parameter 'type' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/Topping.java:52	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Topping.java:55	Method names should not contain underscores
+src/com/impetus/pizzaonline/model/Topping.java:55	Parameter 'act_ind' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:12	Avoid variables with short names like id
+src/com/impetus/pizzaonline/model/User.java:39	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:45	Parameter 'email' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:51	Parameter 'mobile' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:57	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:63	Parameter 'flatNo' is not assigned and could be declared final
+src/com/impetus/pizzaonline/model/User.java:99	Avoid variables with short names like id
+src/com/impetus/pizzaonline/service/ItemService.java:4	Avoid unused imports such as 'java.util.AbstractList'
+src/com/impetus/pizzaonline/service/ItemService.java:4	Avoid unused imports such as 'java.util.AbstractList'
+src/com/impetus/pizzaonline/service/ItemService.java:10	Avoid unused imports such as 'java.util.Set'
+src/com/impetus/pizzaonline/service/ItemService.java:10	Avoid unused imports such as 'java.util.Set'
+src/com/impetus/pizzaonline/service/ItemService.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.dao.UserDAO'
+src/com/impetus/pizzaonline/service/ItemService.java:15	Avoid unused imports such as 'com.impetus.pizzaonline.dao.UserDAO'
+src/com/impetus/pizzaonline/service/ItemService.java:31	Local variable 'itemdao' could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:32	Local variable 'its' could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:34	Local variable 'pizza' could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:36	Local variable 'pizzaItem' could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:37	Consider simply returning the value vs storing it in local variable 'pizzaItem'
+src/com/impetus/pizzaonline/service/ItemService.java:42	Local variable 'itemdao' could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:47	Consider simply returning the value vs storing it in local variable 'sideItem'
+src/com/impetus/pizzaonline/service/ItemService.java:57	Consider simply returning the value vs storing it in local variable 'dessertItem'
+src/com/impetus/pizzaonline/service/ItemService.java:67	Consider simply returning the value vs storing it in local variable 'beverageItem'
+src/com/impetus/pizzaonline/service/ItemService.java:71	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:71	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:74	Avoid unused local variables such as 'its'.
+src/com/impetus/pizzaonline/service/ItemService.java:74	Found 'DU'-anomaly for variable 'its' (lines '74'-'80').
+src/com/impetus/pizzaonline/service/ItemService.java:81	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:81	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:84	Avoid unused local variables such as 'its'.
+src/com/impetus/pizzaonline/service/ItemService.java:84	Found 'DU'-anomaly for variable 'its' (lines '84'-'90').
+src/com/impetus/pizzaonline/service/ItemService.java:92	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:92	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:95	Avoid unused local variables such as 'its'.
+src/com/impetus/pizzaonline/service/ItemService.java:95	Found 'DU'-anomaly for variable 'its' (lines '95'-'112').
+src/com/impetus/pizzaonline/service/ItemService.java:98	Found 'DD'-anomaly for variable 'item' (lines '98'-'103').
+src/com/impetus/pizzaonline/service/ItemService.java:98	Found 'DU'-anomaly for variable 'item' (lines '98'-'112').
+src/com/impetus/pizzaonline/service/ItemService.java:99	Found 'DD'-anomaly for variable 'itemModel' (lines '99'-'104').
+src/com/impetus/pizzaonline/service/ItemService.java:99	Found 'DU'-anomaly for variable 'itemModel' (lines '99'-'112').
+src/com/impetus/pizzaonline/service/ItemService.java:104	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/service/ItemService.java:116	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:116	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:119	Avoid unused local variables such as 'its'.
+src/com/impetus/pizzaonline/service/ItemService.java:119	Found 'DU'-anomaly for variable 'its' (lines '119'-'136').
+src/com/impetus/pizzaonline/service/ItemService.java:122	Found 'DD'-anomaly for variable 'item' (lines '122'-'127').
+src/com/impetus/pizzaonline/service/ItemService.java:122	Found 'DU'-anomaly for variable 'item' (lines '122'-'136').
+src/com/impetus/pizzaonline/service/ItemService.java:123	Found 'DD'-anomaly for variable 'itemModel' (lines '123'-'128').
+src/com/impetus/pizzaonline/service/ItemService.java:123	Found 'DU'-anomaly for variable 'itemModel' (lines '123'-'136').
+src/com/impetus/pizzaonline/service/ItemService.java:128	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/service/ItemService.java:140	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:140	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemService.java:143	Avoid unused local variables such as 'its'.
+src/com/impetus/pizzaonline/service/ItemService.java:143	Found 'DU'-anomaly for variable 'its' (lines '143'-'160').
+src/com/impetus/pizzaonline/service/ItemService.java:146	Found 'DD'-anomaly for variable 'item' (lines '146'-'151').
+src/com/impetus/pizzaonline/service/ItemService.java:146	Found 'DU'-anomaly for variable 'item' (lines '146'-'160').
+src/com/impetus/pizzaonline/service/ItemService.java:147	Found 'DD'-anomaly for variable 'itemModel' (lines '147'-'152').
+src/com/impetus/pizzaonline/service/ItemService.java:147	Found 'DU'-anomaly for variable 'itemModel' (lines '147'-'160').
+src/com/impetus/pizzaonline/service/ItemService.java:152	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/service/ItemService.java:168	Found 'DU'-anomaly for variable 'its' (lines '168'-'185').
+src/com/impetus/pizzaonline/service/ItemService.java:171	Found 'DD'-anomaly for variable 'item' (lines '171'-'176').
+src/com/impetus/pizzaonline/service/ItemService.java:171	Found 'DU'-anomaly for variable 'item' (lines '171'-'185').
+src/com/impetus/pizzaonline/service/ItemService.java:172	Found 'DD'-anomaly for variable 'itemModel' (lines '172'-'177').
+src/com/impetus/pizzaonline/service/ItemService.java:172	Found 'DU'-anomaly for variable 'itemModel' (lines '172'-'185').
+src/com/impetus/pizzaonline/service/ItemService.java:177	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/service/ItemService.java:192	Parameter 'itm' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:194	Avoid variables with short names like hm
+src/com/impetus/pizzaonline/service/ItemService.java:198	Avoid instantiating new objects inside loops
+src/com/impetus/pizzaonline/service/ItemService.java:210	Avoid if (x != y) ..; else ..;
+src/com/impetus/pizzaonline/service/ItemService.java:226	Parameter 'item' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:228	Found 'DD'-anomaly for variable 'insert' (lines '228'-'231').
+src/com/impetus/pizzaonline/service/ItemService.java:235	Parameter 'item' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:237	Found 'DD'-anomaly for variable 'insert' (lines '237'-'240').
+src/com/impetus/pizzaonline/service/ItemService.java:244	Parameter 'itemName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:244	Parameter 'itemSize' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/ItemService.java:248	Consider simply returning the value vs storing it in local variable 'itemList'
+src/com/impetus/pizzaonline/service/ItemService.java:259	Found 'DD'-anomaly for variable 'insert' (lines '259'-'262').
+src/com/impetus/pizzaonline/service/ItemService.java:268	Found 'DD'-anomaly for variable 'insert' (lines '268'-'271').
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:5	Avoid unused imports such as 'java.util.HashMap'
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:5	Avoid unused imports such as 'java.util.HashMap'
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:9	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:9	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:24	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:25	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:26	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:27	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:28	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:28	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:28	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:29	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:29	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:30	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:30	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:31	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:31	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:32	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/ItemServiceImpl.java:32	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/impetus/pizzaonline/service/LoginService.java:6	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/LoginService.java:6	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/LoginService.java:9	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/LoginService.java:9	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/LoginService.java:21	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:21	Parameter 'role' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:21	Parameter 'userName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:22	Found 'DD'-anomaly for variable 'user' (lines '22'-'26').
+src/com/impetus/pizzaonline/service/LoginService.java:24	Local variable 'loginDao' could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:29	Parameter 'staff' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:31	Found 'DD'-anomaly for variable 'register' (lines '31'-'34').
+src/com/impetus/pizzaonline/service/LoginService.java:32	Local variable 'newLogin' could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:37	Parameter 'customer' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:39	Found 'DD'-anomaly for variable 'register' (lines '39'-'42').
+src/com/impetus/pizzaonline/service/LoginService.java:40	Local variable 'newLogin' could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:47	Local variable 'staffdao' could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:48	Local variable 'staffList' could be declared final
+src/com/impetus/pizzaonline/service/LoginService.java:49	Consider simply returning the value vs storing it in local variable 'staffList'
+src/com/impetus/pizzaonline/service/LoginService.java:53	Found 'DD'-anomaly for variable 'remove' (lines '53'-'56').
+src/com/impetus/pizzaonline/service/LoginService.java:64	Consider simply returning the value vs storing it in local variable 'custList'
+src/com/impetus/pizzaonline/service/LoginService.java:68	Found 'DD'-anomaly for variable 'register' (lines '68'-'71').
+src/com/impetus/pizzaonline/service/LoginService.java:78	Consider simply returning the value vs storing it in local variable 'staffList'
+src/com/impetus/pizzaonline/service/LoginService.java:85	Consider simply returning the value vs storing it in local variable 'customerList'
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:5	Avoid unused imports such as 'com.impetus.pizzaonline.dao.UserDAO'
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:5	Avoid unused imports such as 'com.impetus.pizzaonline.dao.UserDAO'
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:19	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:20	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:21	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:22	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/LoginServiceImpl.java:23	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/MapValObj.java:16	Avoid variables with short names like id
+src/com/impetus/pizzaonline/service/MapValObj.java:20	Avoid variables with short names like id
+src/com/impetus/pizzaonline/service/MapValObj.java:20	Parameter 'id' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/MapValObj.java:29	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/MapValObj.java:35	Parameter 'values' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/MapValObj.java:41	Parameter 'type' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/MapValObj.java:47	Parameter 'description' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:6	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/OfferService.java:6	Avoid unused imports such as 'com.impetus.pizzaonline.dao.ItemDAO'
+src/com/impetus/pizzaonline/service/OfferService.java:8	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/OfferService.java:8	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/OfferService.java:18	Parameter 'offer' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:20	Found 'DD'-anomaly for variable 'insert' (lines '20'-'23').
+src/com/impetus/pizzaonline/service/OfferService.java:21	Local variable 'newOffer' could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:26	Parameter 'offer' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:27	Found 'DD'-anomaly for variable 'insert' (lines '27'-'30').
+src/com/impetus/pizzaonline/service/OfferService.java:28	Local variable 'newOffer' could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:34	Parameter 'name' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:36	Local variable 'offerdao' could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:37	Local variable 'offerList' could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:38	Consider simply returning the value vs storing it in local variable 'offerList'
+src/com/impetus/pizzaonline/service/OfferService.java:43	Local variable 'offerdao' could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:45	Consider simply returning the value vs storing it in local variable 'offerList'
+src/com/impetus/pizzaonline/service/OfferService.java:49	Parameter 'coupon' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:49	Parameter 'validDays' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OfferService.java:51	Found 'DD'-anomaly for variable 'validate' (lines '51'-'53').
+src/com/impetus/pizzaonline/service/OfferServiceImpl.java:15	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OfferServiceImpl.java:16	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OfferServiceImpl.java:17	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OfferServiceImpl.java:18	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OfferServiceImpl.java:19	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OrderService.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/OrderService.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.model.Item'
+src/com/impetus/pizzaonline/service/OrderService.java:16	Parameter 'order' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:18	Found 'DD'-anomaly for variable 'insert' (lines '18'-'21').
+src/com/impetus/pizzaonline/service/OrderService.java:19	Local variable 'newOrder' could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:25	Parameter 'userId' is not assigned and could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:27	Local variable 'order' could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:28	Local variable 'item' could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:29	Consider simply returning the value vs storing it in local variable 'item'
+src/com/impetus/pizzaonline/service/OrderService.java:33	Local variable 'order' could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:34	Local variable 'item' could be declared final
+src/com/impetus/pizzaonline/service/OrderService.java:35	Consider simply returning the value vs storing it in local variable 'item'
+src/com/impetus/pizzaonline/service/OrderServiceImpl.java:5	Avoid unused imports such as 'com.impetus.pizzaonline.model.Offer'
+src/com/impetus/pizzaonline/service/OrderServiceImpl.java:5	Avoid unused imports such as 'com.impetus.pizzaonline.model.Offer'
+src/com/impetus/pizzaonline/service/OrderServiceImpl.java:15	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OrderServiceImpl.java:16	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/service/OrderServiceImpl.java:17	Avoid modifiers which are implied by the context
+src/com/impetus/pizzaonline/util/HibernateUtil.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.action.GetItemAction'
+src/com/impetus/pizzaonline/util/HibernateUtil.java:7	Avoid unused imports such as 'com.impetus.pizzaonline.action.GetItemAction'
+src/com/impetus/pizzaonline/util/HibernateUtil.java:9	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/impetus/pizzaonline/util/HibernateUtil.java:10	Use explicit scoping instead of the default package private level
+src/com/impetus/pizzaonline/util/HibernateUtil.java:15	Local variable 'sessionFactory' could be declared final
+src/com/impetus/pizzaonline/util/HibernateUtil.java:17	A catch statement should never catch throwable since it includes errors.
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:3	Avoid unused imports such as 'java.io.File'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:3	Avoid unused imports such as 'java.io.File'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:4	Avoid unused imports such as 'java.io.FileInputStream'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:4	Avoid unused imports such as 'java.io.FileInputStream'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:10	Avoid unused imports such as 'com.impetus.pizzaonline.action.UserAction'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:10	Avoid unused imports such as 'com.impetus.pizzaonline.action.UserAction'
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:36	Avoid excessively long variable names like homeDeliveryCharges
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:46	Local variable 'properties' could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:73	Parameter 'username' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:79	Parameter 'password' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:85	Parameter 'smtpAuth' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:91	Parameter 'tlsEnable' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:97	Parameter 'hostName' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaOnlineProperties.java:110	Avoid excessively long variable names like homeDeliveryCharges
+src/com/impetus/pizzaonline/util/PizzaUtil.java:3	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/util/PizzaUtil.java:3	Avoid unused imports such as 'java.text.DecimalFormat'
+src/com/impetus/pizzaonline/util/PizzaUtil.java:33	All methods are static.  Consider using Singleton instead.  Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/com/impetus/pizzaonline/util/PizzaUtil.java:33	The class 'PizzaUtil' has a Cyclomatic Complexity of 6 (Highest = 15).
+src/com/impetus/pizzaonline/util/PizzaUtil.java:48	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+src/com/impetus/pizzaonline/util/PizzaUtil.java:48	Avoid using implementation types like 'LinkedHashMap'; use the interface instead
+src/com/impetus/pizzaonline/util/PizzaUtil.java:50	Local variable 'weekMap' could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:69	Avoid variables with short names like x
+src/com/impetus/pizzaonline/util/PizzaUtil.java:69	Parameter 'day' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:69	Parameter 'x' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:69	The method 'validateOffer' has a Cyclomatic Complexity of 15.
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'103').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'109').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'115').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'120').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'79').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'85').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'91').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:71	Found 'DD'-anomaly for variable 'validate' (lines '71'-'97').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:72	Found 'DD'-anomaly for variable 'str' (lines '72'-'73').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:74	Avoid unused local variables such as 'n'.
+src/com/impetus/pizzaonline/util/PizzaUtil.java:74	Avoid variables with short names like n
+src/com/impetus/pizzaonline/util/PizzaUtil.java:74	Found 'DU'-anomaly for variable 'n' (lines '74'-'124').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:74	Local variable 'n' could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:136	Parameter 'cartList' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:137	Avoid variables with short names like p
+src/com/impetus/pizzaonline/util/PizzaUtil.java:137	Parameter 'p' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:140	Found 'DU'-anomaly for variable 'tmpPrice' (lines '140'-'177').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:141	Found 'DU'-anomaly for variable 'tempQuantity' (lines '141'-'177').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:142	Found 'DD'-anomaly for variable 'tax' (lines '142'-'160').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:142	Found 'DU'-anomaly for variable 'tax' (lines '142'-'177').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:143	Found 'DD'-anomaly for variable 'totalPrice' (lines '143'-'163').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:143	Found 'DD'-anomaly for variable 'totalPrice' (lines '143'-'169').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:148	Found 'DU'-anomaly for variable 'delivery' (lines '148'-'177').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:150	Substitute calls to size() == 0 (or size() != 0) with calls to isEmpty()
+src/com/impetus/pizzaonline/util/PizzaUtil.java:151	Local variable 'iterator' could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:162	Position literals first in String comparisons
+src/com/impetus/pizzaonline/util/PizzaUtil.java:187	Parameter 'email' is not assigned and could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:189	Found 'DU'-anomaly for variable 'send' (lines '189'-'259').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:189	Found 'DU'-anomaly for variable 'send' (lines '189'-'259').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:192	Local variable 'pizzaProps' could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:196	Avoid unused local variables such as 'getPrice'.
+src/com/impetus/pizzaonline/util/PizzaUtil.java:196	Local variable 'getPrice' could be declared final
+src/com/impetus/pizzaonline/util/PizzaUtil.java:220	Found 'DU'-anomaly for variable 'session' (lines '220'-'259').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:220	Found 'DU'-anomaly for variable 'session' (lines '220'-'259').
+src/com/impetus/pizzaonline/util/PizzaUtil.java:236	Avoid unnecessary comparisons in boolean expressions
+src/com/impetus/pizzaonline/util/PizzaUtil.java:242	A method should have only one exit point, and that should be the last statement in the method
+src/com/impetus/pizzaonline/util/PizzaUtil.java:255	Avoid throwing raw exception types.

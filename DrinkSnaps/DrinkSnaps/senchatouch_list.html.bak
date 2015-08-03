@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+       <!--  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />-->
+		<meta http-equiv="refresh" content="20;url=senchatouch_list.html">
+        <title id='title'>HTML Page setup Tutorial</title>
+
+        <!-- ** CSS ** -->
+        <!-- base library -->
+        <link rel="stylesheet" type="text/css" href="sencha/resources/css/application.css" />
+        <link rel="stylesheet" href="sencha/resources/css/style.css"/>
+
+        <!-- base library -->
+		 <script type="text/javascript" src="sencha/sencha-touch-all.js"></script>		
+
+        <!-- page specific -->
+
+        <script type="text/javascript">
+    
+
+Ext.application({
+    name: 'DrinkSnaps',
+    launch: function () {
+	Ext.regModel('OrderModel', {
+	fields: ['order', 'status']
+	});
+
+	var store = new Ext.data.JsonStore({
+		model : 'OrderModel',
+		root: 'images',
+		sorters: 'order',
+
+		getGroupString : function(record) {
+		return record.get('order')[0];
+		},
+		data: [
+		 { 'order': 'Nicolas',   'status': 1 },
+		 { 'order': 'Sara',   'status': 2 },
+		 { 'order': 'Charles', 'status': 1 },
+		 { 'order': 'Tom',  'status': 2 },
+		 { 'order': 'Harry',  'status': 1 }
+		]
+	});
+
+var viewport = new Ext.Panel({
+        fullscreen: true,
+        layout: 'fit',
+        items: [{
+            //Definition of the list
+            xtype: 'list',
+			itemTpl:'<tpl for="rows">',
+            '<dl class="x-grid3-row {[xindex % 2 === 0? "" :  "x-grid3-row-alt"]}">',
+            '<tpl for="parent.columns">',
+            '<dt style="width:{[values.width*100]}%;text-align:{align};">',
+            '<em unselectable="on"<tpl if="cls">  class="{cls}"</tpl>>{[values.tpl.apply(parent)]}',
+            '</em></dt>',
+            '</tpl><div class="x-clear"></div></dl></tpl>',
+			itemTpl: '<div style=float:left >{order}</div><tpl if="status == 1"><div style=float:right ; class=button-en_proceso>En Proceso!</div></tpl><tpl if="status == 2"><div style=float:right; class=button-Listo>Listo!</div></tpl>',
+			indexBar: false,
+			store: store
+			},{
+                xtype: 'titlebar',
+                docked: 'top',
+				
+                title: 'DrinkSnaps'
+            }]
+	});
+
+
+
+
+
+
+    }
+
+	
+});
+		
+        </script>
+
+    </head>
+    <body>
+    </body>
+</html>

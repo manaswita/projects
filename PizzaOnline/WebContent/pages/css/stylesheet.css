@@ -1,0 +1,1192 @@
+@charset "utf-8";
+/* CSS Document */
+.leaves2
+{ width: 100px !important; height:150px !important}
+
+.leaves1
+{ width: 100px !important; height:150px !important}
+
+.leaves0
+{ width: 100px !important; height:150px !important}
+
+.leaves3
+{ width: 100px !important; height:150px !important}
+
+
+
+body
+{
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background-image: url(../images/Main_bg.jpg);
+	background-color: #fee6ce;
+	background-repeat:repeat-x;
+	overflow: -moz-scrollbars-horizontal;
+overflow-x: hidden;
+overflow-y: scroll;
+}
+
+a {	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#999999;
+	text-decoration:none;}
+	
+hover {	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#940709;
+	text-decoration:none;}
+
+
+#header
+{
+	width:100%; height:115px;
+}
+
+#logo{float:right; }
+#new_range_logo{margin: 60px 0px 0px 0px;}
+#right_top_nav{margin: 5px 32px 0px 0px; width:627px; height:115px;}
+
+.small_nav_top
+{text-transform:uppercase;}
+
+#nav
+{width:710; height:20px; padding-top:5px; text-align:right;}
+
+#nav ul
+{list-style-type:none; padding:0px; margin:0px;}
+
+#nav li
+{list-style-type:none; padding:0px; margin:0px; display:inline; list-style:none padding-right:2px;
+	padding-left:2px;
+	padding-bottom:13px;
+	padding-top:5px;
+}
+
+
+
+#top_left { height:10px; width:10px; background-image:url(../images/corners.gif); background-repeat:no-repeat; background-position:left top;}
+
+#top_right { height:10px; width:10px; background-image:url(../images/corners.gif); background-repeat:no-repeat; background-position:right top;}
+
+#bottom_right { height:10px; width:10px; background-image:url(../images/corners.gif); background-repeat:no-repeat; background-position:right bottom;}
+
+#bottom_left { height:10px; width:10px; background-image:url(../images/corners.gif); background-repeat:no-repeat; background-position:left bottom;}
+
+#body
+{padding:15px;}
+
+#heading
+{background-image: url(../images/heading_bg.gif); background-repeat:repeat-x; background-position:left 2px; padding-left:15px;}
+
+.vertical_shadow
+{background-image:url(../images/vertical_shadow.gif); background-repeat:no-repeat; background-position:left middle; width:26px; height:436px;}
+
+.select_city_input
+{ color:#000000; font-size:11px; border:#999999 solid thin; height:16px; width:120px; vertical-align:middle; padding:5px 3px 3px 3px; line-height:18px;}
+
+#main_cities
+{width:auto; height:370px; overflow:auto; padding-right:20px;}
+
+.cities_grey
+{font-size:11px; color:#000000; text-align:left; background-color:#f8d0b2; padding:4px 4px 4px 10px; text-decoration:none;}
+
+.cities_grey a
+{font-size:11px; color:#000000; text-align:left; background-color:#f8d0b2;text-decoration:none; display:block}
+
+.cities_grey a:hover
+{font-size:11px; color:#941a1d; text-align:left; background-color:#f8d0b2;text-decoration:none; display:block}
+
+
+.cities_white
+{font-size:11px; color:#000000; text-align:left; background-color:#efbc97; padding:4px 4px 4px 10px; text-decoration:none;}
+
+.cities_white a
+{font-size:11px; color:#000000; text-align:left; background-color:#efbc97;text-decoration:none; display:block}
+
+.cities_white a:hover
+{font-size:11px; color:#941a1d; text-align:left; background-color:#efbc97;text-decoration:none; display:block}
+
+
+#footer
+{padding:10px; text-transform:uppercase; color:#959595;}
+
+.footer_bg{ background:url(../images/footer_bg.png) no-repeat center;}
+
+
+/*  Locate us Finish */
+
+/* VIP Login Starts here */
+
+#star_bg
+{background-image:url(../images/stars_bg.gif); background-repeat:repeat-x; background-position: 0px bottom;}
+
+.black_text11
+{color:#000000; font-size:12px; text-align:left; line-height:25px;}
+
+#login_panel
+{width:613px;; height:233px; margin:30px auto 30px auto;}
+
+.white_text11
+{color:#FFFFFF; font-size:11px; text-align:left; line-height:20px;}
+
+.white_text12
+{color:#FFFFFF; font-size:12px; text-align:left; line-height:20px;}
+
+#input_login, #input_login2
+{background-image: url(../images/input_bg.gif); width:179px; height:16px; background-repeat:no-repeat; padding:3px 5px 5px 6px; text-align:center middle;}
+
+.input_login
+{border:#FFFFFF solid thin; height:14px; width:168px; font-size:11px;}
+
+.red_line
+{color: #FF0000; font-size:11px; text-align:left; line-height:20px; padding-top:3px;}
+
+/*  VIP Login Finish here */
+
+/* contact us starts her */
+
+.grey_bold_heading18
+{font-size:18px; font-weight:bold; color:#999999; text-align:left;}
+
+.black_text12
+{color:#000000; line-height:25px; text-align:left; font-size:12px;}
+
+.red_text
+{color:#940709; font-size:12px; font-weight:bold; text-align:left; text-decoration:none;}
+.red_text a:Hover
+{color:#940709; font-size:12px; font-weight:bold; text-align:left; text-decoration:none;}
+.red_text a:Link
+{color:#940709; font-size:12px; font-weight:bold; text-align:left; text-decoration:none;}
+.red_text a:Active
+{color:#940709; font-size:12px; font-weight:bold; text-align:left; text-decoration:none;}
+.red_text a:visited
+{color:#940709; font-size:12px; font-weight:bold; text-align:left; text-decoration:none;}
+
+#envelope
+{background-image:url(../images/envelope.gif); background-repeat:no-repeat; background-position:bottom}
+
+#feedback_bg
+{background-image:url(../images/feedback_bg.gif); background-repeat:no-repeat; background-position:bottom}
+
+/* enhanced dining starts here */
+
+.vertical_shadow2
+{background-image:url(../images/shadow_grey.gif); background-repeat:no-repeat; background-position:left middle; width:26px; height:436px; background-color:#f5f5f5;}
+
+.left_text_dining11
+{color:#333333; font-size:11px; text-align:left; line-height:18px;}
+
+/* Website Feedback starts here */
+
+#website_feedback_bg
+{background-image:url(../images/website_feedback_bg.gif); background-repeat:no-repeat; background-position:bottom}
+
+#dotline_feedback
+{width:100%; height:3px; background-image:url(../images/dot.gif); background-repeat:repeat-x;}
+
+.black_bold_11
+{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#000000; text-align:left;}
+
+.astrik_red_11
+{ font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:bold; color:#940709; text-align:left;}
+
+.input_feedback
+{height:16px; width:80%;border:#cccccc 1px solid; padding:2px; outline:none; text-align:left; font-size:11px; font-family:Arial, Helvetica, sans-serif;}
+
+.input_textbox_feedback
+{height:50px; width:80%;border:#cccccc 1px solid; padding:2px; outline:none; text-align:left; font-size:11px; font-family:Arial, Helvetica, sans-serif;}
+
+.Select_feedback
+{width:83%; border:#cccccc 1px solid; padding:2px; outline:none; text-align:left; font-size:11px; font-family:Arial, Helvetica, sans-serif; }
+
+.radio
+{font-size:12px; font-weight:normal; text-align:left; font-family:Arial, Helvetica, sans-serif; color:#000000;}
+
+
+.middledottedline
+{
+background-image:url(../images/middle_dotted_line.gif); background-position:center top; background-repeat:repeat-y; width:10px;}
+
+
+.redtext
+{
+	font-family:"Myriad Pro",Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#940709;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+.redtext a:Hover
+{
+	color:#940709;
+	text-decoration:none;
+}
+
+.redtext a:Link
+{
+	color:#940709;
+	text-decoration:none;
+}
+
+.redtext a:Active
+{
+	color:#940709;
+	text-decoration:none;
+}
+
+.redtext a:Visited
+{
+	color:#940709;
+	text-decoration:none;
+}
+
+
+
+#top_right_green { height:10px; width:10px; background-image:url(../images/green_corners.gif); background-repeat:no-repeat; background-position:right top;}
+
+#bottom_right_green { height:10px; width:10px; background-image:url(../images/green_corners.gif); background-repeat:no-repeat; background-position:right bottom;}
+
+#bottom_left_green { height:10px; width:10px; background-image:url(../images/green_corners.gif); background-repeat:no-repeat; background-position:left bottom;}
+
+
+
+#redheading_bg
+{background-image: url(../images/red_heading_bg.gif); background-repeat:repeat-x; background-position:right 2px; padding-right:15px;}
+
+
+
+.redgradient
+{
+background-image:url(../images/red_gradient.gif); background-repeat:repeat-x; background-position:left top; background-color:#6d0019; }
+
+
+
+
+.whitetextborder
+{font-family:Arial, Helvetica, sans-serif;	font-size:11px;	color:#ffffff;	text-decoration:none; border-bottom:dashed 1px #d31e48; padding-bottom:10px;}
+
+.whitetextborder a:Hover
+{font-size:11px; color:#ffffff;	text-decoration:none; }
+
+.whitetextborder a:Link
+{font-size:11px; color:#ffffff;	text-decoration:none; }
+
+.whitetextborder a:Active
+{font-size:11px; color:#ffffff; text-decoration:none;}
+
+.whitetextborder a:Visited
+{font-size:11px; color:#ffffff; text-decoration:none;}
+
+
+
+.height10
+{height:10px;}
+
+
+.whitedottedlineV
+{border-bottom:dotted 1px #ffffff;}
+
+
+.whitedottedlineH
+{border-left:dotted 1px #ffffff; }
+
+
+
+.blacktext
+{font-family:Arial, Helvetica, sans-serif;	font-size:11px;	color:#000000;	text-decoration:none;}
+
+.blacktext a:Hover
+{font-size:11px; color:#000000;	text-decoration:none; }
+
+.blacktext a:Link
+{font-size:11px; color:#000000;	text-decoration:none; }
+
+.blacktext a:Active
+{font-size:11px; color:#000000; text-decoration:none;}
+
+.blacktext a:Visited
+{font-size:11px; color:#000000; text-decoration:none;}
+
+
+.greenprice
+{ background-image:url(../images/green_gradient_price.gif); background-repeat:repeat-x; height:51px; background-color:#647e1f;}
+
+.redprice
+{ background-image:url(../images/red_gradient_price.gif); background-repeat:repeat-x; height:51px;}
+
+
+
+.whitetext
+{font-family:Arial, Helvetica, sans-serif;	font-size:11px;	color:#ffffff;	text-decoration:none;}
+
+.whitetext a:Hover
+{font-size:11px; color:#ffffff;	text-decoration:none; }
+
+.whitetext a:Link
+{font-size:11px; color:#ffffff;	text-decoration:none; }
+
+.whitetext a:Active
+{font-size:11px; color:#ffffff; text-decoration:none;}
+
+.whitetext a:Visited
+{font-size:11px; color:#ffffff; text-decoration:none;}
+
+
+
+.whitetext20
+{font-family:Arial, Helvetica, sans-serif;	font-size:20px;	color:#ffffff;	text-decoration:none; font-weight:bold;}
+
+
+
+#greyheading_bg
+{background-image: url(../images/grey_heading_bg.gif); background-repeat:repeat-x; background-position:right 2px; padding-left:15px; height:21px; background-position:left top; vertical-align:middle; }
+
+
+
+.blacktext10
+{font-family:Arial, Helvetica, sans-serif;	font-size:10px;	color:#000000;	text-decoration:none;}
+
+.blacktext10 a:Hover
+{font-size:10px; color:#000000;	text-decoration:none; }
+
+.blacktext10 a:Link
+{font-size:10px; color:#000000;	text-decoration:none; }
+
+.blacktext10 a:Active
+{font-size:10px; color:#000000; text-decoration:none;}
+
+.blacktext10 a:Visited
+{font-size:10px; color:#000000; text-decoration:none;}
+
+
+
+.redtext14
+{font-family:Arial, Helvetica, sans-serif;	font-size:14px;	color:#940709;	text-decoration:none; font-weight:bold;}
+
+
+.height5
+{height:5px;}
+
+
+
+.viewmenu
+{font-family:Arial, Helvetica, sans-serif;	font-size:11px;	color:#490000; text-decoration:underline; font-weight:bold;}
+
+.viewmenu a:Hover
+{font-size:11px; color:#490000;	text-decoration:underline; font-weight:bold;}
+
+.viewmenu a:Link
+{font-size:11px; color:#490000;	text-decoration:underline; font-weight:bold;}
+
+.viewmenu a:Active
+{font-size:11px; color:#490000; text-decoration:underline; font-weight:bold;}
+
+.viewmenu a:Visited
+{font-size:11px; color:#490000; text-decoration:underline; font-weight:bold;}
+
+
+
+
+#top_left_grey { height:10px; width:10px; background-image:url(../images/grey_corners.gif); background-repeat:no-repeat; background-position:left top;}
+
+#top_right_grey { height:10px; width:10px; background-image:url(../images/grey_corners.gif); background-repeat:no-repeat; background-position:right top;}
+
+#bottom_right_grey { height:10px; width:10px; background-image:url(../images/grey_corners.gif); background-repeat:no-repeat; background-position:right bottom;}
+
+#bottom_left_grey { height:10px; width:10px; background-image:url(../images/grey_corners.gif); background-repeat:no-repeat; background-position:left bottom;}
+
+
+.greyborder
+{ border-bottom:dotted 1px #989898;}
+
+
+/* about Pizza hut starts her */
+
+#dark_grey_heading_bg
+{background-image: url(../images/dark_grey_heading_bg.gif); background-repeat:repeat-x; background-position:right 2px; padding-right:15px; height:21px; background-position:left top; vertical-align:middle; text-align: right }
+
+/* news starts here */
+
+.link_news
+{font-size:11px; color:#990000; text-decoration:none; font-family:Arial, Helvetica, sans-serif; text-align: left;}
+
+.link_news a
+{font-size:11px; color: #333333; text-decoration:none; font-family:Arial, Helvetica, sans-serif; text-align: left;}
+
+.link_news a:hover
+{font-size:11px; color:#990000; text-decoration:none; font-family:Arial, Helvetica, sans-serif; text-align: left;}
+
+.GrayText11{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#3c3c3c;
+}
+.GrayText11 a:link{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#3c3c3c;
+text-decoration:none;
+}
+.GrayText11 a:hover{
+font-family:Arial, Helvetica, sans-serif;
+font-size:11px;
+color:#3c3c3c;
+text-decoration:underline;
+}
+.textbox{
+font-family:Arial, Helvetica, sans-serif;
+color:#000000;
+font-size:11px;
+border-style:solid;
+border-width:1px;
+border-color:#CCCCCC;
+}
+
+
+
+.font12black
+{ font-size:12px; font-weight:bold; color:#000000; text-align:left;}
+.font12black a
+{font-size:12px; font-weight:bold; color:#000000; text-align:left;}
+.font12black a:hover
+{font-size:12px; font-weight:bold; color:#000000; text-align:left;}
+
+
+/*.........................new design css start...........................*/
+
+
+
+.top_links{
+background-image:url(../images/Top_links.jpg);
+background-repeat:no-repeat;
+background-position:right top;
+width:548px;
+height:27px;
+}
+.logo{
+padding-left:5px;}
+
+.celebrations_gift{
+background-image:url(../images/New_celebration_card.png);
+background-repeat:no-repeat;
+width:264x;
+height:154px;
+background-position:center;
+
+}
+.Next_chef{
+background-image:url(../images/Next_chef.png);
+background-repeat:no-repeat;
+width:312;
+height:123px;
+background-position:center;
+}
+.text_bold{
+font-family: "Myriad Pro" , Arial;
+font-size:11px;
+color:#2c2c2b;
+line-height:16px;
+font-weight:bold;
+text-decoration:none;
+}
+.text_08{
+font-family: Tahoma;
+font-size:10px;
+color:#fff;
+line-height:17px;
+text-decoration:none;
+text-transform:none;
+}
+.text_08 a{
+font-family: Tahoma;
+font-size:10px;
+color:#fff;
+line-height:17px;
+text-decoration:none;
+text-transform:none;
+}
+.text_08 a:hover{
+font-family:Tahoma;
+font-size:10px;
+color:#ffe720;
+line-height:17px;
+text-decoration:none;
+text-transform:none;
+}
+
+.text_08red{
+font-family:Tahoma;
+font-size:10px;
+color:#fff;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+text-transform:none;
+}
+
+
+.text_08red a{
+font-family: Tahoma;
+font-size:10px;
+color:#fff;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+text-transform:none;
+}
+
+
+.text_08red a:hover{
+font-family: Tahoma;
+font-size:10px;
+color:#ffe720;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+text-transform:none;
+}
+
+
+.text_08_black{
+font-family: Tahoma;
+font-size:10px;
+color:#fff;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+text-transform:none;
+}
+
+.text_08_black a{
+font-family:Tahoma;
+font-size:10px;
+color:#000;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+}
+
+.text_08_black a:hover{
+font-family: Tahoma;
+font-size:10px;
+color:#000;
+line-height:15px;
+text-align:right;
+text-decoration:none;
+}
+.bottom_left{
+background-image:url(../images/Bottom_left.png);
+background-repeat:no-repeat;
+
+height:68px;}
+
+.bottom_right{
+background-image:url(../images/Bottom_right.png);
+background-repeat:no-repeat;
+
+height:68px;}
+
+.bottom_bg{
+background-image:url(../images/Bottom_bg.png);
+background-repeat:repeat-x;
+
+height:68px;}
+
+.main_bg2{
+background-image:url(../images/Main_bg_02.jpg);
+background-repeat: repeat-x;
+background-position:top center;}
+
+/*
+.....................Top_links.........................*/
+
+
+.navi {width:548px; height:54px; float:right;  }
+.navi ul {list-style:none; margin:0px; padding:0px; display:inline}
+.navi ul li{ line-height:normal; float:left;  list-style:none; display:inline}
+.navi ul li a{ background:url(../images/navigation.jpg) right top no-repeat; }
+.navi ul li a.home1{ width:56px; height:27px; float:right; background-position:left top; }
+.navi ul li a.home2{ width:64px; height:27px; float:right; background-position:-56px top; }
+.navi ul li a.home3{ width:60px; height:27px; float:right; background-position:-115px top; }
+.navi ul li a.home4{ width:62px; height:27px; float:right; background-position:-177px top; }
+.navi ul li a.home5{ width:77px; height:27px; float:right; background-position:-292px top; }
+.navi ul li a.home6{ width:89px; height:27px; float:right; background-position:-366px top; }
+.navi ul li a.home7{ width:87px; height:27px; float:right; background-position:-465px top;  }
+.navi ul li a.home8{ width:94px; height:27px; float:right; background-position:-584px top; }
+.like{background-image:url(../images/Like.gif); background-repeat: no-repeat; width:86px; height:23px;}
+
+
+
+
+.navi ul li a.home1:hover{ width:56px; height:27px; float:right; background-position:left -27px; }
+.navi ul li a.home2:hover{ width:64px; height:27px; float:right; background-position:-56px -27px; }
+.navi ul li a.home3:hover{ width:60px; height:27px; float:right; background-position:-115px -27px; }
+.navi ul li a.home4:hover{ width:62px; height:27px; float:right; background-position:-177px -27px; }
+.navi ul li a.home5:hover{ width:77px; height:27px; float:right; background-position:-292px -27px; }
+.navi ul li a.home6:hover{ width:89px; height:27px; float:right; background-position:-366px -27px; }
+.navi ul li a.home7:hover{ width:87x; height:27px; float:right; background-position:-465px -27px; }
+.navi ul li a.home8:hover{ width:94px; height:27px; float:right; background-position:-584px -27px; }
+
+
+.navi ul li a.home1-act{ width:56px; height:27px; float:right; background-position:left -27px; }
+.navi ul li a.home2-act{ width:64px; height:27px; float:right; background-position:-56px -27px; }
+.navi ul li a.home3-act{ width:50px; height:27px; float:right; background-position:-115px -27px; }
+.navi ul li a.home4-act{ width:62px; height:27px; float:right; background-position:-177px -27px; }
+.navi ul li a.home5-act{ width:77px; height:27px; float:right; background-position:-292px -27px; }
+.navi ul li a.home6-act{ width:89px; height:27px; float:right; background-position:-366px -27px; }
+.navi ul li a.home7-act{ width:87px; height:27px; float:right; background-position:-465px -27px; }
+.navi ul li a.home8-act{ width:94px; height:27px; float:right; background-position:-584px -27px; }
+
+/*image navigation*/
+
+
+/*..................2 navigation...............*/
+
+
+
+#topNav {
+	margin:0px;
+	padding:0px;
+	width:620px;
+	height:20px;
+	text-align:center;
+	}
+
+#topNav ul {
+	margin:0px;
+	padding:0px;
+}
+#topNav ul li {
+	list-style:none;
+	float:left;
+	text-decoration:none;
+	padding-right:1px;
+	padding-left:1px;
+	padding-bottom:13px;
+	padding-top:5px;
+
+}
+#topNav ul li a{
+	display:block;
+	padding:0px 6px;
+
+	text-decoration:none;
+		text-transform:uppercase;
+}
+#topNav ul li a:hover{
+	color:#e2955a;
+	text-decoration:none;
+
+}
+
+#topNav ul li a:active{
+
+
+}
+#topNav .sep {
+
+}
+#topNav .active{
+
+
+}
+#topNav .active a {
+	
+
+}
+
+#topNav ul li a:focus {
+
+font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	font-weight:bold;
+
+}
+
+
+
+.giftnow {width:137px; height:27px; }
+.giftnow{width:137px; height:27px; float:right; background:url(../images/Gift_now.gif) left top no-repeat; border:0; cursor:pointer; }
+.giftnow:hover { background:url(../images/Gift_now.gif) left -28px no-repeat; border:0; cursor:pointer; }
+
+.Register {width:144px; height:27px; }
+.Register{width:144px; height:27px; float:right; background:url(../images/Register.gif) left top no-repeat; border:0; cursor:pointer; }
+.Register:hover { background:url(../images/Register.gif) left -28px no-repeat; border:0; cursor:pointer; }
+
+
+#nav
+{width:100%; height:16px; padding-top:5px; text-align:right;}
+
+#nav ul
+{list-style-type:none; padding:0px; margin:0px;}
+
+#nav li
+{list-style-type:none; padding:0px; margin:0px; display:inline; list-style:none}
+
+
+.text17{
+font-family:"Myriad Pro", Arial;
+font-size:17px;
+color:#000000;
+text-decoration:none;
+font-weight:bold;
+padding-left:8px;}
+
+.text_white{
+font-family:"Myriad Pro" , Arial;
+font-size:12px;
+color:#FFFFFF;
+text-decoration:none;
+line-height:16px;}
+
+.v_line{
+background-image: url(../images/V_line.gif);
+background-repeat:repeat-y;
+background-position:center bottom;
+height:150px;}
+
+.text10{
+font-family:"Myriad Pro" , Arial;
+font-size:10px;
+color:#000;
+text-decoration:none;
+line-height:16px;
+}
+
+.text16{
+font-family:"Myriad Pro" , Arial;
+font-size:16px;
+color:#000;
+text-decoration:none;
+line-height:16px;
+}
+
+.text27{
+font-family:"Myriad Pro", Arial;
+font-size:25px;
+color:#ffffff;
+text-decoration:none;
+padding-left:7px;
+font-weight:normal;
+}
+
+.top_link_11{
+font-family: "Myriad Pro" , Arial;
+font-size:13px;
+color:#000;
+line-height:16px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.top_link_11 a{
+font-family: "Myriad Pro" , Arial;
+font-size:13px;
+color:#000;
+line-height:16px;
+font-weight:bold;
+text-decoration:none;
+}
+.top_link_11 a:hover{
+font-family: "Myriad Pro" , Arial;
+font-size:13px;
+color:#940709;
+line-height:16px;
+font-weight:bold;
+text-decoration:none;
+}
+
+.whitetext15
+{font-family:Arial, Helvetica, sans-serif;	font-size:15px;	color:#ffffff;	text-decoration:none; font-weight:bold;}
+
+
+.facebook_text{ font-family:Tahoma, Geneva, sans-serif; font-size:11px;  color:#3e3e3e; line-height:14px;}
+.facebook_text strong{ font-weight:bold; color:#274480; text-decoration:none;}
+.facebook_text a{ font-weight:bold; color:#274480; text-decoration:none;}
+
+.dotted_line{ border-bottom:1px dotted #333;}
+
+.nnut_text{ font-size:12px;}
+.padding_border{ padding:10px 0px 10px 0px; border-top:1px solid #f9e8db}
+
+.mealtxt {font-family:Arial, Helvetica, sans-serif; color:#98151a; font-size:12px; text-transform:uppercase; text-align:left; font-weight:bold;}
+.mealtxt2 {font-family:Arial, Helvetica, sans-serif; color:#000; font-size:12px; font-weight:bold; text-align:left;}
+.mealtxt3 {font-family:Arial, Helvetica, sans-serif;v color:#000; font-size:11px; text-align:left;}
+.price {font-family:Arial, Helvetica, sans-serif; color:#000; font-size:12px; text-align:left; font-weight:bold;}
+.mealtxt21 {font-family:Arial, Helvetica, sans-serif; color:#000; font-size:12px; font-weight:bold; text-align:left;}
+.mealtxt31 {font-family:Arial, Helvetica, sans-serif;v color:#000; font-size:11px; text-align:left;}
+.style3 {font-family: Arial, Helvetica, sans-serif; color: #000; font-size: 12px; text-align: left; font-weight: bold; }
+
+.veg_text{ font-size:12px; font-weight:bold; color:#090; text-align:left}
+.nonveg_text{ font-size:12px; font-weight:bold; color: #900; text-align:left}
+.nut_tc{ font-size:11px; color: #79542F; text-align:left}
+
+
+#dinemenu{ font-family:Arial, Helvetica, sans-serif;}
+#dinemenu li{ list-style: none; margin: 0px;  padding: 0px; display:block; margin-left:0px;}
+
+#dinemenu .item {                 
+color: #efc654!important;                 
+background-image:url(../image/beverages.png); background-position:left top;              
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .item a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; padding-right:65px;                 
+}               
+
+
+#dinemenu .item:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/beverages_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .item a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#beverageactive{background-image:url(../image/beverages_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+
+#beverageactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }                  
+
+
+
+
+
+
+
+
+
+
+#dinemenu .appetiser {                 
+color: #efc654!important;                 
+background-image:url(../image/Appetisers.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .appetiser a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .appetiser:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/Appetisers_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .appetiser a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#appetiseractive{width:211px;  background-image:url(../image/Appetisers_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+
+#appetiseractive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }                  
+
+
+
+
+
+
+
+
+#dinemenu .soup {                 
+color: #efc654!important;                 
+background-image:url(../image/soups-salad.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .soup a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .soup:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/soups-salad_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .soup a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#soupactive{width:211px;  background-image:url(../image/soups-salad_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+
+#soupactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }                  
+
+
+
+
+
+
+
+#dinemenu .pasta {                 
+color: #efc654!important;                 
+background-image:url(../image/pastas.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .pasta a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .pasta:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/pastas_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .pasta a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#pastaactive{width:211px;  background-image:url(../image/pastas_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+
+#pastaactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }             
+
+
+
+
+
+
+
+
+#dinemenu .pizza {                 
+color: #efc654!important;                 
+background-image:url(../image/speciality_pizzas.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .pizza a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .pizza:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/speciality_pizzas_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .pizza a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#pizzaactive{width:211px;  background-image:url(../image/speciality_pizzas_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#pizzaactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }             
+
+
+
+
+
+
+#dinemenu .favpizza {                 
+color: #efc654!important;                 
+background-image:url(../image/alltimefavourites.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .favpizza a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .favpizza:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/alltimefavourites_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .favpizza a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#favpizzaactive{width:211px;  background-image:url(../image/alltimefavourites_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#favpizzaactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }         
+
+
+
+
+
+
+#dinemenu .pizzamia {                 
+color: #efc654!important;                 
+background-image:url(../image/pizza-mia.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .pizzamia a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .pizzamia:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/pizza-mia-over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .pizzamia a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#pizzamiaactive{width:211px;  background-image:url(../image/pizza-mia-over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#pizzamiaactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }         
+
+
+
+
+
+
+
+
+
+#dinemenu .desserts {                 
+color: #efc654!important;                 
+background-image:url(../image/desserts.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .desserts a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .desserts:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/desserts_over.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .desserts a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#dessertsactive{width:211px;  background-image:url(../image/desserts_over.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#dessertsactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }         
+
+
+
+
+
+
+
+
+#dinemenu .takeaway {                 
+color: #efc654!important;                 
+background-image:url(../image/take-away.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .takeaway a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .takeaway:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/take-away-rol.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .takeaway a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#takeawayactive{width:211px;  background-image:url(../image/take-away-rol.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#takeawayactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }         
+
+ .slide-out-div {
+          width: 300px;
+          background: #FFF0E1;
+          border: 2px solid #345799;
+		  z-index:1232323233;}
+
+
+
+
+
+
+
+
+
+#dinemenu .indianpan {                 
+color: #efc654!important;                 
+background-image:url(../image/indianpan.png);               
+background-repeat: no-repeat; height:27px; width:211px; padding-top:11px; padding-left:10px;          
+}               
+
+#dinemenu .indianpan a {                 
+color: #efc654;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold;                  
+}               
+
+
+#dinemenu .indianpan:hover {                 
+color: #FFFFFF;                  
+background-image:url(../image/indianpan_hover.png);         
+background-repeat: no-repeat; height:27px;font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px;         
+}               
+
+
+#dinemenu .indianpan a:hover {                 
+color:#fff  ;               
+text-decoration: none;                 
+font-size: 12px; font-family:Arial, Helvetica, sans-serif;padding-left:0px; padding-top:10px; font-weight:bold;      
+}   
+
+#indianpanactive{width:211px;  background-image:url(../image/indianpan_hover.png);  color: #fff;                  
+font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; height:27px;padding-top:11px; padding-left:10px; background-repeat:no-repeat; }
+#indianpanactive a{color: #fff; text-decoration:none;text-transform:uppercase; font-size:12px; text-decoration:none; width:211px; font-weight:bold; }         

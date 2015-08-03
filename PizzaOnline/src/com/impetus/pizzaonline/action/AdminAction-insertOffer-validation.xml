@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	 
+
+    
+   <field name="description">
+        <field-validator type="requiredstring">
+            <message>please enter the description</message>
+        </field-validator>
+    </field>
+    
+    
+  	  <field name="coupon">
+        <field-validator type="requiredstring">
+            <message>please enter a coupon code</message>
+        </field-validator>
+    </field>
+    
+   
+  <field name="startDate">
+        <field-validator type="requiredstring">
+        <param name="expression"> (0?[1-9]|[12][0-9]|3[01])-(0?[1-9]|1[012])-((19|20)\\d\\d)</param>
+            <message>please enter offer start date</message>
+        </field-validator>
+	</field>
+	<field name="endDate">
+        <field-validator type="requiredstring">
+         <param name="expression"> (0?[1-9]|[12][0-9]|3[01])-(0?[1-9]|1[012])-((19|20)\\d\\d)</param>
+            <message>please enter offer end date</message>
+        </field-validator>
+    </field>
+   
+</validators>

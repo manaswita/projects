@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	 
+	<field name="itemCategory">
+        <field-validator type="requiredstring">
+            <message>please enter the item category</message>
+        </field-validator>
+    </field>
+   <field name="description">
+        <field-validator type="requiredstring">
+            <message>please enter the description</message>
+        </field-validator>
+    </field>
+    
+    
+  	  <field name="itemName">
+        <field-validator type="requiredstring">
+            <message>please enter the item name</message>
+        </field-validator>
+    </field>
+    
+     <field name="itemPrice">
+        <field-validator type="requiredstring">
+            <message>please enter price</message>
+        </field-validator>
+	</field>
+	<field name="itemType">
+        <field-validator type="requiredstring">
+            <message>please enter type(vegetarian or nonvegetarian)</message>
+        </field-validator>
+    </field>
+  
+   
+</validators>

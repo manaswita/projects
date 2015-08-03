@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	 
+	<field name="tpgCategory">
+        <field-validator type="requiredstring">
+            <message>please enter the topping category</message>
+        </field-validator>
+    </field>
+   <field name="tpgName">
+        <field-validator type="requiredstring">
+            <message>please enter the topping name</message>
+        </field-validator>
+    </field>
+    
+    
+  	  <field name="tpgPrice">
+        <field-validator type="requiredstring">
+            <message>please enter the topping price</message>
+        </field-validator>
+    </field>
+    
+     <field name="tpgType">
+        <field-validator type="requiredstring">
+            <message>please enter type</message>
+        </field-validator>
+	</field>
+	
+  
+   
+</validators>

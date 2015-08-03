@@ -1,0 +1,539 @@
+/* CSS Document */
+body {
+	background-color:#000000;
+	margin:0px auto;
+}
+#main {
+	width:825px;
+	margin:0px auto;
+	background-color:#FFFFFF;
+}
+h1 {
+	font-family:"Times New Roman", Times, serif;
+	font-size:22px;
+}
+.sub_main {
+	width:825px;
+	height:auto;
+}
+.header {
+	width:1000px;
+	height:223px;
+	float:left;
+}
+.logoblock {
+	width:359px;
+	height:159px;
+	float:left;
+}
+.sub_logoblock {
+	width:215px;
+	height:144px;
+	float:left;
+	padding-left:65px;
+	padding-top:15px;
+}
+.logo_image {
+	width:289px;
+	height:118px;
+	float:left;
+	background:url(../images/richresturant_logo.gif);
+	background-repeat:no-repeat;
+}
+.header_rightimg {
+	width:441px;
+	height:159px;
+	float:left;
+	background:url(../images/img_header.gif);
+	background-repeat:no-repeat;
+}
+.menublock {
+	width:950px;
+	height:41px;
+	background:url(../images/bg_menublock.gif);
+	background-repeat:repeat-x;
+	
+	float:left;
+}
+.sub_menublock {
+	width:700px;
+	height:39px;
+	float:left;
+}
+.menublock ul {
+	padding:0px;
+	margin:0px;
+	margin-left:65px;
+}
+.menublock ul li {
+	width:auto;
+	height:30px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	background:url(../images/icon_menu.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	line-height:20px;
+	text-align:center;
+	margin-left:20px;
+	list-style:none;
+	padding-left:30px;
+	padding-top:10px;
+}
+.menublock ul li a {
+	width:auto;
+	height:30px;
+	float:left;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	color:#000000;
+	list-style:none;
+}
+.imgs_contentblock {
+	width:824px;
+	padding-left:1px;
+	padding-top:10px;
+	float:left;
+	background-color:#FFFFFF;
+}
+.imgs_contentblock img {
+	margin: 0px 2px;
+	float: left;
+	border:1px solid #999;
+}
+.callus {
+	background:url(../images/call.png) no-repeat left top;
+	width:220px;
+	height:40px;
+}
+.contentblock {
+	width:825px;
+	height:487px;
+	float:left;
+	background-color:#FFFFFF;
+}
+.left_contentblock {
+	width:565px;
+	height:474px;
+	float:left;
+}
+.right_contentblock {
+	width:235px;
+	height:474px;
+	float:left;
+}
+.top_left_contentblock {
+	width:565px;
+	height:212px;
+	float:left;
+}
+.welcomeblock_top_left_contentblock {
+	width:550px;
+	float:left;
+	padding-left:15px;
+	padding-top:25px;
+}
+.sub_welcomeblock_top_left_contentblock {
+	width:540px;
+	float:left;
+}
+.welcome_imgblock {
+	width:236px;
+	height:auto;
+	float:left;
+	padding-top:20px;
+}
+.welcomecontentblock {
+	width:280px;
+	float:left;
+	padding-top:15px;
+	padding-left:10px;
+	line-height:18px;
+}
+.sub_welcomecontentblock {
+	width:283px;
+	border-left:1px solid #fec212;
+	padding-left:5px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	text-align:justify;
+}
+.readmoreblock {
+	width:72px;
+	height:15px;
+	float:right;
+	background:url(../images/img_readmore.jpg);
+	background-repeat:no-repeat;
+	margin-top:10px;
+}
+.border_imgblock {
+	width:500px;
+	height:6px;
+	float:left;
+	padding-left:40px;
+}
+.border_img {
+	width:500px;
+	height:6px;
+	float:left;
+	background:url(../images/img_border.jpg);
+	background-repeat:no-repeat;
+}
+.recipesblock {
+	width:520px;
+	float:left;
+	padding-left:10px;
+	padding-top:15px;
+}
+.sub_recipesblock {
+	width:500px;
+	float:left;
+	height:246px;
+}
+.recipes_headingblock {
+	width:495px;
+	height:22px;
+	float:left;
+}
+.recipes_heading {
+	width:154px;
+	height:22px;
+	float:left;
+	background:url(../images/heading_recipes.jpg);
+	background-repeat:no-repeat;
+}
+.daterecipesblock {
+	width:458px;
+	height:206px;
+	float:left;
+	padding-top:15px;
+}
+.top_daterecipesblock, .top_daterecipesblock1 {
+	width:458px;
+	height:94px;
+	float:left;
+}
+.top_daterecipesblock1 {
+	padding-top:15px;
+}
+.headingblock_recipes {
+	width:456px;
+	height:26px;
+	float:left;
+}
+.heading_recipes {
+	width:231px;
+	height:22px;
+	float:left;
+	font-family:Arial Narrow;
+	font-size:18px;
+	color:#906b00;
+	border-bottom:1px solid #d5d5d5;
+	padding-bottom:3px;
+}
+.text_daterecipesblock {
+	width:458px;
+	height:72px;
+	float:left;
+	font-family:Arial Narrow;
+	font-size:14px;
+	color:#6b6b6b;
+}
+.headingblock_todayspecial {
+	width:235px;
+	height:30px;
+	float:left;
+	padding-top:20px;
+}
+.heading_todayspecial {
+	width:142px;
+	height:28px;
+	float:left;
+	background:url(../images/img_todayspecial.jpg);
+	background-repeat:no-repeat;
+}
+.itemsblock_today {
+	width:220px;
+	height:435px;
+	float:left;
+	background:url(../images/bg_todayspecial.jpg);
+	background-repeat:repeat-x;
+}
+.top_itemsblock_today {
+	width:196px;
+	height:207px;
+	float:left;
+	padding-left:15px;
+	padding-top:7px;
+}
+.top_itemsblock_today1 {
+	width:196px;
+	height:182px;
+	float:left;
+	padding-left:15px;
+	padding-top:15px;
+}
+.sub_top_itemsblock_today {
+	width:194px;
+	height:197px;
+	float:left;
+}
+.imgblock_itemsblock_today {
+	width:184px;
+	height:113px;
+	float:left;
+	padding-left:10px;
+}
+.img_itemsblock_today {
+	width:170px;
+	height:113px;
+	float:left;
+}
+.text_itemsblock_today {
+	width:196px;
+	height:78px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#000000;
+	padding-top:2px;
+	line-height:15px;
+}
+.padding {
+	padding-top:3px;
+}
+.heading_burger {
+	font-weight:bold;
+	font-family:Arial Narrow;
+	font-size:15px;
+	color:#000000;
+}
+.border_todayspl {
+	width:181px;
+	height:1px;
+	float:left;
+	padding-left:15px;
+}
+.bordeimg_todayspl {
+	width:191px;
+	height:1px;
+	float:left;
+	background:url(../images/dotted.jpg);
+	background-repeat:no-repeat;
+}
+.footer {
+	width:825px;
+	float:left;
+	background:url(../images/bg_footer.jpg);
+	background-repeat:repeat-x;
+}
+.sub_footer {
+	width:319px;
+	padding-top:20px;
+	padding-bottom:20px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	padding-left:27px;
+}
+.privacy {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.contentblock_aboutus {
+	width:825px;
+	height:auto;
+	float:left;
+}
+.top_contentblock_aboutus {
+	width:825px;
+	height:271px;
+	float:left;
+}
+.sub_top_contentblock_aboutus {
+	width:825px;
+	height:255px;
+	float:left;
+}
+.left_sub_top_contentblock_aboutus {
+	width:550px;
+	height:251px;
+	float:left;
+}
+.headingblock_ofr {
+	width:476px;
+	height:16px;
+	float:left;
+	padding-left:25px;
+	padding-top:20px;
+}
+.heading_ofr {
+	width:127px;
+	height:20px;
+	float:left;
+	background:url(../images/weofr_img.gif);
+	background-repeat:no-repeat;
+}
+.contentblock_left_sub_top_contentblock_aboutus {
+	width:501px;
+	height:188px;
+	float:left;
+	padding-left:27px;
+	border-right:1px solid #fec212;
+	margin-top:12px;
+}
+.sub_contentblock_left_sub_top_contentblock_aboutus {
+	width:464px;
+	height:180px;
+	float:left;
+}
+.topcontent {
+	width:464px;
+	height:51px;
+	float:left;
+	font-family:Arial Narrow;
+	font-size:14px;
+	color:#6b6b6b;
+}
+.branchesblock {
+	width:270px;
+	height:121px;
+	float:left;
+}
+.linksblock {
+	width:211px;
+	height:121px;
+	float:left;
+}
+.linksblock ul {
+	padding:0px;
+	margin:0px;
+}
+.linksblock ul li {
+	list-style:none;
+	width:211px;
+	height:auto;
+	float:left;
+	background:url(../images/icon_lbranche.gif);
+	background-repeat:no-repeat;
+	background-position:left center;
+	font-family:Arial Narrow;
+	font-size:14px;
+	color:#006690;
+	padding-left:15px;
+	margin-top:5px;
+}
+.img_branchesblock {
+	width:158px;
+	height:120px;
+	float:left;
+	background:url(../images/img_dish.gif);
+	background-repeat:no-repeat;
+	margin-top:12px;
+}
+.cuisineblock {
+	width:229px;
+	height:212px;
+	float:left;
+}
+.cuisine_headingblock {
+	width:229px;
+	height:18px;
+	float:left;
+	padding-top:20px;
+}
+.cuisine_img {
+	width:105px;
+	height:20px;
+	float:left;
+	background:url(../images/cuisine_img.gif);
+	background-repeat:no-repeat;
+}
+.contentblock_cuision {
+	width:229px;
+	height:69px;
+	font-family:Arial Narrow;
+	font-size:14px;
+	color:#6b6b6b;
+	float:left;
+}
+.main_contentblock_cuision {
+	width:225px;
+	height:64px;
+	padding-top:12px;
+	float:left;
+}
+.img_fishes {
+	width:208px;
+	height:112px;
+	float:left;
+	background:url(../images/img_fish.jpg);
+	background-repeat:no-repeat;
+	position:relative;
+	left:15px;
+	top:3px;
+}
+.border_aboutus {
+	width:778px;
+	height:7px;
+	float:left;
+	padding-left:22px;
+	padding-top:10px;
+}
+.borderimg_aboutus {
+	width:750px;
+	height:7px;
+	float:left;
+	background:url(../images/borderimg_aboutus.jpg);
+	background-repeat:no-repeat;
+}
+.bottomblock_aboutus {
+	width:780px;
+	height:auto;
+	float:left;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:30px;
+}
+.sub_bottomblock_aboutus {
+	width:761px;
+	height:189px;
+	float:left;
+}
+.left_sub_bottomblock_aboutus {
+	width:476px;
+	height:189px;
+	float:left;
+}
+
+.content_bottomblock {
+	width:464px;
+	height:122px;
+	float:left;
+	font-family:Arial Narrow;
+	font-size:14px;
+	color:#6b6b6b;
+	line-height:18px;
+}
+.img_aboutusblock {
+	width:284px;
+	height:189px;
+	float:left;
+	background:url(../images/corimg.jpg);
+	background-repeat:no-repeat;
+}
+.recipes {
+	background-color:#eeb437;
+	line-height:30px;
+	font-size:18px;
+	color:#a41d09;
+	padding-left:5px;
+}

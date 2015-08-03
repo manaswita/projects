@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE validators PUBLIC
+        "-//OpenSymphony Group//XWork Validator 1.0.2//EN"
+        "http://www.opensymphony.com/xwork/xwork-validator-1.0.2.dtd">
+
+<validators>
+	 
+	<field name="location">
+        <field-validator type="requiredstring">
+            <message>please enter the location</message>
+        </field-validator>
+    </field>
+   <field name="designation">
+        <field-validator type="requiredstring">
+            <message>please enter the designation</message>
+        </field-validator>
+    </field>
+    
+   <field name="mobile">
+        <field-validator type="regex">
+             <param name="expression">^[0-9]{10}$</param>
+             <message>Mobile number must be of 10 digits</message>
+        </field-validator>
+  </field>
+    
+  	  <field name="userName">
+        <field-validator type="requiredstring">
+            <message>please enter the username</message>
+        </field-validator>
+    </field>
+    
+    <field name="password">
+        <field-validator type="requiredstring">
+            <message>please enter the passsword</message>
+        </field-validator>
+	</field>
+	<field name="name">
+        <field-validator type="requiredstring">
+            <message>please enter the name</message>
+        </field-validator>
+    </field>
+   <field name="city">
+        <field-validator type="requiredstring">
+            <message>please select your city</message>
+        </field-validator>
+    </field>
+   
+</validators>

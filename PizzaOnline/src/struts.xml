@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+
+<struts>
+	<package name="default" namespace="/pages" extends="struts-default">
+	
+		<result-types>
+			<result-type name="tiles"
+				class="org.apache.struts2.views.tiles.TilesResult" />
+		</result-types>
+			
+		<action name="loginUser" method="login"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="input">/pages/Login.jsp</result>
+			<!-- <result name="input">/Login.jsp</result>  -->
+			<result name="success" type="tiles">/welcome.tiles</result>
+			<!-- <result name="stf_success">/pages/Welcome.jsp</result> -->
+			<result name="error">/pages/Login.jsp</result>
+			
+		</action>
+		<action name="populateUser" method="populate"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="populate">/pages/register.jsp</result>
+		</action>
+		<action name="includeOffer" method="includeOffer"
+			class="com.impetus.pizzaonline.action.PaymentAction">
+			<result name="populate">/pages/includeOffer.jsp</result>
+		</action>
+		<action name="registerUser" method="register"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="input">/pages/register.jsp</result>
+			<result name="success" type="tiles">/welcome.tiles</result>
+			<result name="errorMsg">/pages/register.jsp</result>
+		</action>
+		<action name="registerStaff" method="registerStaff"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+  			 <result name="input" type="redirect">populateStaff.action</result>
+			<result name="success" type="tiles">/welcome.tiles</result>
+			<result name="errorMsg" type="redirect">populateStaff.action</result>
+		</action>
+		<action name="removeStaff" method="removeStaff"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="errorMsg" type="redirect">populateStaff.action</result>
+		</action>
+		<action name="pizzaList" method="pizzaList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<result name="populate" type="tiles">/pizza.tiles</result>
+		</action>
+		<action name="sideList" method="sideList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<result name="populate" type="tiles">/sideDish.tiles</result>
+		</action>
+		<action name="dessertList" method="dessertList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<result name="populate" type="tiles">/dessert.tiles</result>
+		</action>
+		<action name="beverageList" method="beverageList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<result name="populate" type="tiles">/beverage.tiles</result>
+		</action>
+		<action name="noToppingList" method="noToppingList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupDessert.jsp</result>
+		</action>
+		<action name="bevToppingList" method="bevToppingList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupBeverage.jsp</result>
+		</action>
+		<action name="toppingList" method="toppingList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			
+			<result name="populate">/pages/popupPizza.jsp</result>
+		</action>
+		<action name="sideToppingList" method="sideToppingList"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupSides.jsp</result>
+		</action>
+		<action name="addToCart" method="addToCartPizza"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupPizza.jsp</result>
+			<result name="error">/pages/popupPizza.jsp</result>
+		</action>
+		<action name="addToCartSides" method="addToCartSides"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupSides.jsp</result>
+			<result name="error">/pages/popupSides.jsp</result>
+		</action>
+		<action name="addToCartDessert" method="addToCartDessert"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupDessert.jsp</result>
+			<result name="error">/pages/popupDessert.jsp</result>
+		</action>
+		<action name="addToCartBeverage" method="addToCartBeverage"
+			class="com.impetus.pizzaonline.action.GetItemAction">
+			<!-- <result name="populate">/pages/popupPizza.jsp</result> -->
+			<result name="populate">/pages/popupBeverage.jsp</result>
+			<result name="error">/pages/popupBeverage.jsp</result>
+		</action>
+		<action name="cart" method="showCart"
+			class="com.impetus.pizzaonline.action.PaymentAction">
+			<result name="success" type="tiles">/cart.tiles</result>
+			<result name="error">/pages/InternalError.jsp</result>
+		</action>
+		<action name="removeCart" method="removeCart"
+			class="com.impetus.pizzaonline.action.PaymentAction">
+			<result name="success" type="tiles">/cart.tiles</result>
+			<result name="error">/pages/InternalError.jsp</result>
+		</action>
+		<action name="payment" method="payment"
+			class="com.impetus.pizzaonline.action.PaymentAction">
+			 <interceptor-ref name="store">
+     			 <param name="operationMode">RETRIEVE</param>
+  			 </interceptor-ref>
+			<result name="success" type="tiles">/payment.tiles</result>
+			<!-- <result name="error">/pages/InternalError.jsp</result> -->
+		</action>
+
+		<action name="order" method="insertOrder"
+			class="com.impetus.pizzaonline.action.OrderAction">
+			<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="input" type="redirect">payment.action</result>
+			<result name="success" type="tiles">/order.tiles</result>
+			<result name="errorMsg">/pages/InternalError.jsp</result>
+			<result name="error" type="redirect">payment.action</result>
+		</action>
+		<action name="userHistory" method="getUserHistory"
+			class="com.impetus.pizzaonline.action.OrderAction">
+			<result name="success" type="tiles">/history.tiles</result>
+			<result name="error">/pages/error.jsp</result>
+		</action>
+		<action name="insertItem" method="insertItem"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="fileUpload">
+       		 <param name="maximumSize">2097152</param>
+        		<param name="allowedTypes">
+           			 image/png,image/gif,image/jpeg,image/pjpeg
+       			 </param>
+    		</interceptor-ref>
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+  			 
+    		<result name="input" type="redirect">populateSize.action</result>
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="error" type="redirect">populateSize.action</result>
+		</action>
+		<action name="insertTopping" method="insertTpg"
+			class="com.impetus.pizzaonline.action.AdminAction">
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+    		<result name="input" type="redirect">populateSize.action</result>
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="error" type="redirect">populateSize.action</result>
+		</action>
+		<action name="removeItem" method="removeItem"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="errorMsg" type="redirect">populateSize.action</result>
+		</action>
+		<action name="removeTopping" method="removeTopping"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="errorMsg" type="redirect">populateSize.action</result>
+		</action>
+		<action name="populateSize" method="populateSize"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="store">
+     			 <param name="operationMode">RETRIEVE</param>
+  			 </interceptor-ref>
+			<result name="populate" type="tiles">/insertItem.tiles</result>		
+		</action>
+		<action name="populateStaff" method="populateStaff"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="store">
+     			 <param name="operationMode">RETRIEVE</param>
+  			 </interceptor-ref>
+			<result name="populate" type="tiles">/insertStaff.tiles</result>		
+		</action>
+		<action name="insertOffer" method="insertOffer"
+			class="com.impetus.pizzaonline.action.AdminAction">
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+  			 <result name="input" type="redirect">populateDays.action</result>
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="errorMsg" type="redirect">populateDays.action</result>
+		</action>
+		<action name="removeOffer" method="removeOffer"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="success" type ="tiles">/welcome.tiles</result>
+			<result name="errorMsg">/pages/error.jsp</result>
+		</action>
+		<action name="custHistory" method="getCustomerOrder"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+    		<interceptor-ref name="store">
+    			 <param name="operationMode">STORE</param>
+   			</interceptor-ref>
+  			 <interceptor-ref name="defaultStack" />
+			<result name="success" type="tiles">/custHistory.tiles</result>
+			<result name="error" type="tiles">/welcome.tiles</result>
+		</action>
+		<action name="populateDays" method="populateDays"
+			class="com.impetus.pizzaonline.action.AdminAction">
+			<interceptor-ref name="store">
+     			 <param name="operationMode">RETRIEVE</param>
+  			 </interceptor-ref>
+			<result name="populate" type="tiles">/insertOffer.tiles</result>
+		</action>
+		<action name="home" method="getHome"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="success" type="tiles">/welcome.tiles</result>
+		</action>
+		<action name="validateCust" method="validateCust"
+			class="com.impetus.pizzaonline.action.BPOAction">
+			<result name="success" type="redirect">home.action</result>
+			<result name="error">/pages/BPORegisterUser.jsp</result>
+		</action>
+		<action name="registerCust" method="registerCust"
+			class="com.impetus.pizzaonline.action.BPOAction">
+			<result name="input">/pages/BPORegisterUser.jsp</result>
+			<result name="success" type="tiles">/welcome.tiles</result>
+			<result name="errorMsg">/pages/BPORegisterUser.jsp</result>
+		</action>
+		<action name="logout" method="logOut"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="success">/pages/Login.jsp</result>
+		</action>
+		<action name="editProfile" method="editProfile"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="populate" >/pages/register.jsp</result>
+		</action>
+		<action name="forgotPassword" method="forgotPassword"
+			class="com.impetus.pizzaonline.action.UserAction">
+			<result name="success" >/pages/Login.jsp</result>
+			<result name="error">/pages/ForgotPassword.jsp</result>
+		</action>
+	</package>
+</struts>

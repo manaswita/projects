@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>jQuery UI Autocomplete - Custom data and display</title>
+
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+<style>
+
+</style>
+<script>
+$(function() {
+var projects = [
+{
+value: "jquery",
+label: "jQuery",
+desc: "the write less, do more, JavaScript library"
+},
+{
+value: "jquery-ui",
+label: "jQuery UI",
+desc: "the official user interface library for jQuery"
+},
+{
+value: "sizzlejs",
+label: "Sizzle JS",
+desc: "a pure-JavaScript CSS selector engine"
+}
+];
+$( "#project" ).autocomplete({
+		minLength: 0,
+		source: projects,
+		focus: function( event, ui ) {
+			$( "#project" ).val( ui.item.label );
+			return false;
+		},
+		select: function( event, ui ) {
+			$( "#project" ).val( ui.item.label );
+			$( "#project-id" ).val( ui.item.value );
+			$( "#project-description" ).html( ui.item.desc );
+			return false;
+		}
+	})
+.autocomplete( "instance" )._renderItem = function( ul, item ) {
+	return $( "<li>" )
+	.append( "<a>" + item.label + item.desc + "</a>" )
+	.appendTo( ul );
+};
+});
+</script>
+</head>
+<body>
+<div id="project-label">Select a project (type "j" for a start):</div>
+<input id="project">
+
+</body>
+</html>
