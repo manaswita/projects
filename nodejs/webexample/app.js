@@ -21,9 +21,9 @@ var todoItems=[
 		{id:3, desc:'baz'},
 	];
 
-app.get('/', function(req, resp) {
+app.get('/', function(req, res) {
 	//load data from DB here
-resp.render('index',{
+res.render('index',{
 	title: "Mansi",
 	items: todoItems
 });
@@ -38,7 +38,7 @@ app.post('/add', function(req, res){
 	res.redirect('/');
 });
 
-app.get('*', function(){
+app.get('*', function(req,res){
 res.send(405,'Method not allowed');
 });
 
